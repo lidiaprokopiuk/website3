@@ -1,0 +1,115 @@
+/*body {
+	font-family: proxima-nova, sans-serif!important;
+}*/
+
+/*Proxima Nova Black*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+/*Proxima Nova Black Italic*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+/*Proxima Nova Bold*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/*Proxima Nova Bold Italic*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+/*Proxima Nova Extrabold*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+/*Proxima Nova Extrabold Italic*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 800;
+	font-style: italic;
+}
+
+/*Proxima Nova Thin*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+/*Proxima Nova Thin Italic*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 100;
+	font-style: italic;
+}
+
+/*Proxima Nova Semibold*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+/*Proxima Nova Semibold Italic*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+/*Proxima Nova Regular*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/*Proxima Nova Italic*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/*Proxima Nova Light*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+/*Proxima Nova Light Italic*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+/*Proxima Nova Medium*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+/*Proxima Nova Medium Italic*/
+@font-face {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 500;
+	font-style: italic;	
+}

@@ -186,13 +186,13 @@
 									<span class="visually-hidden">Next</span>
 								</button>
 								<div class="carousel-indicators carouselProduct-indicators position-relative m-0" id="indicators">
-									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="0" class="active position-relative w-100	h-100 opacity-100 m-0 bg-dark-opacity-40 border-0" style="background-color: rgba(11, 11, 11, 0.4);" aria-current="true" aria-label="Slide 1">
+									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="0" class="active position-relative w-100	h-100 opacity-100 m-0 bg-dark-opacity-40 border-0" aria-current="true" aria-label="Slide 1">
 										<img src="assets/images/Products/Helm_2.png" alt="product helmet" class="h-100 position-absolute top-50 start-50 translate-middle p-2 p-sm-4">
 									</button>
-									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="1" class="position-relative w-100	h-100 opacity-100 m-0 bg-dark-opacity-40 border-0" style="background-color: rgba(11, 11, 11, 0.4);" aria-label="Slide 2">
+									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="1" class="position-relative w-100	h-100 opacity-100 m-0 bg-dark-opacity-40 border-0" aria-label="Slide 2">
 										<img src="assets/images/Products/Helm_2_front.png" alt="product helmet" class="h-100 position-absolute top-50 start-50 translate-middle p-2 p-sm-4">
 									</button>
-									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="2" class="position-relative w-100	h-100 opacity-100 m-0 bg-dark-opacity-40 border-0" style="background-color: rgba(11, 11, 11, 0.4);" aria-label="Slide 3">
+									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="2" class="position-relative w-100	h-100 opacity-100 m-0 bg-dark-opacity-40 border-0" aria-label="Slide 3">
 										<img src="assets/images/Products/Helm_2_back.png" alt="product helmet" class="h-100 position-absolute top-50 start-50 translate-middle p-2 p-sm-4">
 									</button>
 								</div>

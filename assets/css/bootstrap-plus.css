@@ -113,11 +113,6 @@
     border-color: rgba(var(--bs-stone-rgb),var(--bs-border-opacity))!important;
 }
 
-
-/*style*/
-
-
-
 /*size*/
 .border-7 {border-width: 7px;}
 
@@ -171,9 +166,13 @@
 .mt-9 {margin-top: 9.5rem;} /*152px*/
 
 .ms-neg-xxs {margin-left: -1px;} 
+.ms-neg-xs {margin-left: -1.25rem;} 
+
 .mt-neg-xxs {margin-top: -1px;} 
+.mt-neg-3xs {margin-top: -6px;} 
 .mt-neg-xs {margin-top: -2.5rem;} /*-40px*/
 .mt-neg-sm {margin-top: -5.5rem;} /*-88px*/
+
 .m-neg-md {margin-top: -6.25rem;} /*-100px*/
 
 /*BUTTON*/

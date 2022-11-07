@@ -58,7 +58,7 @@
                     <div class="article-header position-relative overflow-hidden">
                         <img src="assets/images/Blog-images/post-2.png" alt="" class="article-header-img w-100 object-fit-cover rounded-3">
                         <div class="feature-img-overlay position-absolute w-100 h-100 top-0 d-block d-lg-none"></div>
-                        <div class="article-header-text position-absolute w-100 h-100 top-0 rounded-3 d-flex flex-column justify-content-center px-4 px-md-5 px-lg-0 py-5 py-lg-0" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.29));">
+                        <div class="article-header-text position-absolute w-100 h-100 top-0 rounded-3 d-flex flex-column justify-content-center px-4 px-md-5 px-lg-0 py-5 py-lg-0">
                             <h1 class="headline-2 text-800 lh-1 text-start text-lg-center text-uppercase mb-3 pb-lg-3 px-md-5 px-lg-4 pt-1 pt-lg-0">ORV TEAM DESERT ADVENTURE</h1>
                             <div class="row justify-content-start justify-content-lg-center">
                                 <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-6">

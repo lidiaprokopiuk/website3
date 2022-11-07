@@ -84,7 +84,7 @@
 								</button>
 							</div>
 						</div>
-						<div class="px-3 py-4 rounded-3 aside bg-img-cover bg-primary bg-blend-burn" style="background-image: url(assets/images/Background/6071926.jpg), radial-gradient(56.63% 45.31% at 47.58% 70.43%, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(349.7deg, rgba(238, 135, 40, 0.6) 0%, rgba(255, 113, 9, 0.6) 64.01%);">
+						<div class="px-3 py-4 rounded-3 aside bg-img-cover bg-primary bg-blend-burn bg-banner-ad">
 							<h3 class="headline-3 lh-1 text-60 mb-6 text-center text-xl-start">
 								Check out <span class="text-uppercase text-800">NEW EXHAUSTS</span> for your ride!			
 							</h3>
@@ -396,7 +396,7 @@
 												<div class="accordion-header" id="progressHeadlineOne">
 													<div class="accordion-button cursor-pointer collapsed  d-flex py-4 px-3 justify-content-between" role="button" data-bs-toggle="collapse" data-bs-target="#progressOne" aria-expanded="false" aria-controls="progressOne">
 														<div class="d-flex justify-content-between align-items-center h-100 accordion-header-text order-details-headline">
-															<span class="me-4 d-none d-sm-flex align-items-center order-details-imgs" style="width: 54px;">
+															<span class="me-4 d-none d-sm-flex align-items-center order-details-imgs">
 																<img src="assets/images/Products/wheel.png" class="img-fluid order-details-img w-100" alt="">
 															</span>
 															<table class="table text-white table-borderless mb-0">	
@@ -461,8 +461,8 @@
 																</div>
 																<div class="row d-none d-xl-flex">
 																	<div class="col-12 position-relative pt-4 pb-5">
-																		<div class="progress bg-transparent overflow-visible" style="height: 1px">
-																			<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment one" style="width: 6.5%" aria-valuenow="31.16" aria-valuemin="0" aria-valuemax="100">
+																		<div class="progress bg-transparent overflow-visible">
+																			<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment one" aria-valuenow="31.16" aria-valuemin="0" aria-valuemax="100">
 																				<div class="progress-wrapper pe-2 position-absolute d-flex flex-column align-items-center">	
 																					<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																						<i class="fal fa-check"></i>
@@ -470,7 +470,7 @@
 																					<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">New</div>
 																				</div>
 																			</div>
-																			<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment two" style="width: 31.16%" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+																			<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment two" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
 																				<div class="progress-wrapper px-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																					<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																						<i class="fal fa-check"></i>
@@ -478,7 +478,7 @@
 																					<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">In Progress</div>
 																				</div>
 																			</div>
-																			<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment three" style="width: 31.16%" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+																			<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment three" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
 																				<div class="progress-wrapper px-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																					<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																						<i class="fal fa-check"></i>
@@ -486,7 +486,7 @@
 																					<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">Sent</div>
 																				</div>														
 																			</div>
-																			<div class="progress-bar active overflow-visible position-relative" role="progressbar" aria-label="Segment four" style="width: 31.16%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+																			<div class="progress-bar active overflow-visible position-relative" role="progressbar" aria-label="Segment four" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
 																				<div class="progress-wrapper ps-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																					<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																						<i class="fal fa-check"></i>
@@ -608,7 +608,7 @@
 														<div class="accordion-header" id="orderHeadlineOne">
 															<div class="accordion-button collapsed  d-flex py-4 px-3 justify-content-between" role="button" data-bs-toggle="collapse" data-bs-target="#orderOne" aria-expanded="false" aria-controls="orderOne">
 																<div class="d-flex justify-content-between align-items-center h-100 accordion-header-text order-details-headline">
-																	<span class="me-4 d-none d-sm-flex align-items-center order-details-imgs" style="width: 54px;">
+																	<span class="me-4 d-none d-sm-flex align-items-center order-details-imgs">
 																		<img src="assets/images/Products/wheel.png" class="img-fluid order-details-img w-100" alt="">
 																	</span>
 																	<table class="table text-white table-borderless mb-0">	
@@ -659,8 +659,8 @@
 																		</div>
 																		<div class="row d-none d-lg-flex">
 																			<div class="col-12 position-relative pt-4 pb-5">
-																				<div class="progress bg-transparent overflow-visible" style="height: 1px">
-																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment one" style="width: 6.5%" aria-valuenow="31.16" aria-valuemin="0" aria-valuemax="100">
+																				<div class="progress bg-transparent overflow-visible">
+																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment one"  aria-valuenow="31.16" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper pe-2 position-absolute d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -668,7 +668,7 @@
 																							<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">New</div>
 																						</div>
 																					</div>
-																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment two" style="width: 31.16%" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment two" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper px-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -676,7 +676,7 @@
 																							<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">In Progress</div>
 																						</div>
 																					</div>
-																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment three" style="width: 31.16%" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment three" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper px-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -684,7 +684,7 @@
 																							<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">Sent</div>
 																						</div>														
 																					</div>
-																					<div class="progress-bar active overflow-visible position-relative" role="progressbar" aria-label="Segment four" style="width: 31.16%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+																					<div class="progress-bar active overflow-visible position-relative" role="progressbar" aria-label="Segment four" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper ps-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -797,7 +797,7 @@
 														<div class="accordion-header" id="orderHeadlineTwo">
 															<div class="accordion-button collapsed  d-flex py-4 px-3 justify-content-between" role="button" data-bs-toggle="collapse" data-bs-target="#orderTwo" aria-expanded="false" aria-controls="orderTwo">
 																<div class="d-flex justify-content-between align-items-center h-100 accordion-header-text order-details-headline">
-																	<span class="me-4 d-none d-sm-flex align-items-center order-details-imgs" style="width: 54px;">
+																	<span class="me-4 d-none d-sm-flex align-items-center order-details-imgs">
 																		<img src="assets/images/Products/wheel.png" class="img-fluid order-details-img w-100" alt="">
 																	</span>
 																	<table class="table text-white table-borderless mb-0">	
@@ -848,8 +848,8 @@
 																		</div>
 																		<div class="row d-none d-lg-flex">
 																			<div class="col-12 position-relative pt-4 pb-5">
-																				<div class="progress bg-transparent overflow-visible" style="height: 1px">
-																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment one" style="width: 6.5%" aria-valuenow="31.16" aria-valuemin="0" aria-valuemax="100">
+																				<div class="progress bg-transparent overflow-visible">
+																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment one"  aria-valuenow="31.16" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper pe-2 position-absolute d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -857,7 +857,7 @@
 																							<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">New</div>
 																						</div>
 																					</div>
-																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment two" style="width: 31.16%" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment two" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper px-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -865,7 +865,7 @@
 																							<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">In Progress</div>
 																						</div>
 																					</div>
-																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment three" style="width: 31.16%" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment three" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper px-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -873,7 +873,7 @@
 																							<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">Sent</div>
 																						</div>														
 																					</div>
-																					<div class="progress-bar active overflow-visible position-relative" role="progressbar" aria-label="Segment four" style="width: 31.16%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+																					<div class="progress-bar active overflow-visible position-relative" role="progressbar" aria-label="Segment four" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper ps-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -986,7 +986,7 @@
 														<div class="accordion-header" id="orderHeadlineThree">
 															<div class="accordion-button collapsed  d-flex py-4 px-3 justify-content-between" role="button" data-bs-toggle="collapse" data-bs-target="#orderThree" aria-expanded="false" aria-controls="orderThree">
 																<div class="d-flex justify-content-between align-items-center h-100 accordion-header-text order-details-headline">
-																	<span class="me-4 d-none d-sm-flex align-items-center order-details-imgs" style="width: 54px;">
+																	<span class="me-4 d-none d-sm-flex align-items-center order-details-imgs">
 																		<img src="assets/images/Products/wheel.png" class="img-fluid order-details-img w-100" alt="">
 																	</span>
 																	<table class="table text-white table-borderless mb-0">	
@@ -1037,8 +1037,8 @@
 																		</div>
 																		<div class="row d-none d-lg-flex">
 																			<div class="col-12 position-relative pt-4 pb-5">
-																				<div class="progress bg-transparent overflow-visible" style="height: 1px">
-																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment one" style="width: 6.5%" aria-valuenow="31.16" aria-valuemin="0" aria-valuemax="100">
+																				<div class="progress bg-transparent overflow-visible">
+																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment one"  aria-valuenow="31.16" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper pe-2 position-absolute d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -1046,7 +1046,7 @@
 																							<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">New</div>
 																						</div>
 																					</div>
-																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment two" style="width: 31.16%" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment two" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper px-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -1054,7 +1054,7 @@
 																							<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">In Progress</div>
 																						</div>
 																					</div>
-																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment three" style="width: 31.16%" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+																					<div class="progress-bar bg-gray overflow-visible position-relative" role="progressbar" aria-label="Segment three" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper px-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>
@@ -1062,7 +1062,7 @@
 																							<div class="text-xxs lh-1 text-500 mt-3 position-absolute top-100">Sent</div>
 																						</div>														
 																					</div>
-																					<div class="progress-bar active overflow-visible position-relative" role="progressbar" aria-label="Segment four" style="width: 31.16%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+																					<div class="progress-bar active overflow-visible position-relative" role="progressbar" aria-label="Segment four" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
 																						<div class="progress-wrapper ps-2 position-absolute end-0 d-flex flex-column align-items-center">	
 																							<div class="progress-point bg-gray rounded-circle d-flex position-relative justify-content-center align-items-center boxSize-sd">
 																								<i class="fal fa-check"></i>

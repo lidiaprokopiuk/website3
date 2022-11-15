@@ -85,7 +85,7 @@
     									<div class="text-start text-400 d-inline-flex text-capitalize">
     										<span class="productsNumber">Items</span>
     									</div>
-    									<div class="text-end text-400 d-inline-flex">Edit</div>
+    									<button class="btn-line text-end text-400 d-inline-flex btn-edit text-white">Edit</button>
     								</div>
 
     								<table class="d-block d-lg-table table text-white mb-0">
@@ -101,7 +101,7 @@
     										</tr>										
     									</thead>
     									<tbody class="text-xs text-700 lh-1 align-middle">
-    										<tr class="productItem mb-5 mb-lg-0 d-block d-lg-table-row px-3 px-sm-0 px-3 px-sm-0">
+    										<tr class="productItem mb-5 position-relative mb-lg-0 d-block d-lg-table-row px-3 px-sm-0 px-3 px-sm-0">
     											
     											<td class="d-none d-sm-flex align-items-center d-lg-none cell-img ms-4 me-4 me-md-5 p-0">
     												<img src="assets/images/Products/air_filter.png" alt="" class="d-inline-flex d-lg-none img-fluid">
@@ -131,14 +131,18 @@
     												<span class="text-white text-400 d-inline d-lg-none text-uppercase me-auto me-sm-4">FINAL PRICE </span>
     												$<span class="totalCost">500.00</span>
     											</td>
-    											<td class="text-center py-3 d-none d-lg-table-cell">
-    												<button class="text-white removeButton">
+    											<td class="text-center py-lg-3">
+    												<button class="text-white removeButton d-none d-lg-flex">
     													<i class="icon-slash"></i>
-    												</button>												
+    												</button>	
+													<button class="btn-link text-white text-decoration-none removeButton  position-absolute w-100 h-100 top-0 start-0 bg-black bg-opacity-80 d-lg-none d-flex justify-content-center align-items-center">														
+														<i class="icon-trash"></i>
+														Delete
+													</button>											
     											</td>
     										</tr>
 
-    										<tr class="productItem mb-5 mb-lg-0 d-block d-lg-table-row px-3 px-sm-0">
+    										<tr class="productItem mb-5 position-relative mb-lg-0 d-block d-lg-table-row px-3 px-sm-0">
 
     											<td class="d-none d-sm-flex align-items-center d-lg-none cell-img ms-4 me-4 me-md-5 p-0">
     												<img src="assets/images/Products/belt_engine.png" alt="" class="d-inline-flex  d-lg-none img-fluid">
@@ -168,13 +172,17 @@
     												<span class="text-white text-400 d-inline d-lg-none text-uppercase me-4">FINAL PRICE </span>
     												$<span class="totalCost">100.00</span>
     											</td>
-    											<td class="text-center py-3 d-none d-lg-table-cell">
-    												<button class="text-white removeButton">
+    											<td class="text-center py-lg-3">
+    												<button class="text-white removeButton d-none d-lg-flex">
     													<i class="icon-slash"></i>
-    												</button>												
+    												</button>	
+													<button class="btn-link text-white text-decoration-none removeButton  position-absolute w-100 h-100 top-0 start-0 bg-black bg-opacity-80 d-lg-none d-flex justify-content-center align-items-center">														
+														<i class="icon-trash"></i>
+														Delete
+													</button>											
     											</td>
     										</tr>
-    										<tr class="productItem mb-5 mb-lg-0 d-block d-lg-table-row px-3 px-sm-0">
+    										<tr class="productItem mb-5 position-relative mb-lg-0 d-block d-lg-table-row px-3 px-sm-0">
 
     											<td class="d-none d-sm-flex align-items-center d-lg-none cell-img ms-4 me-4 me-md-5 p-0">
     												<img src="assets/images/Products/badge.jpg" alt="" class="d-inline-flex  d-lg-none img-fluid">
@@ -204,13 +212,17 @@
     												<span class="text-white text-400 d-inline d-lg-none text-uppercase me-4">FINAL PRICE </span>
     												<span class="totalCost">FREE</span>
     											</td>
-    											<td class="text-center py-3 d-none d-lg-table-cell">
-    												<button class="text-white removeButton">
+    											<td class="text-center py-lg-3">
+    												<button class="text-white removeButton d-none d-lg-flex">
     													<i class="icon-slash"></i>
-    												</button>												
+    												</button>	
+													<button class="btn-link text-white text-decoration-none removeButton  position-absolute w-100 h-100 top-0 start-0 bg-black bg-opacity-80 d-lg-none d-flex justify-content-center align-items-center">														
+														<i class="icon-trash"></i>
+														Delete
+													</button>											
     											</td>
     										</tr>
-    										<tr class="productItem mb-5 mb-lg-0 d-block d-lg-table-row px-3 px-sm-0">
+    										<tr class="productItem mb-5 position-relative mb-lg-0 d-block d-lg-table-row px-3 px-sm-0">
 
     											<td class="d-none d-sm-flex align-items-center d-lg-none cell-img ms-4 me-4 me-md-5 p-0">
     												<img src="assets/images/Products/badge.jpg" alt="" class="d-inline-flex  d-lg-none img-fluid">
@@ -240,10 +252,14 @@
     												<span class="text-white text-400 d-inline d-lg-none text-uppercase me-4">FINAL PRICE </span>
     												<span class="totalCost">FREE</span>
     											</td>
-    											<td class="text-center py-3 d-none d-lg-table-cell">
-    												<button class="text-white removeButton">
+    											<td class="text-center py-lg-3">
+    												<button class="text-white removeButton d-none d-lg-flex">
     													<i class="icon-slash"></i>
-    												</button>												
+    												</button>	
+													<button class="btn-link text-white text-decoration-none removeButton  position-absolute w-100 h-100 top-0 start-0 bg-black bg-opacity-80 d-lg-none d-flex justify-content-center align-items-center">														
+														<i class="icon-trash"></i>
+														Delete
+													</button>											
     											</td>
     										</tr>
     									</tbody>
@@ -331,7 +347,7 @@
     									<input type="email" name="email" class="form-control form-control-gray form-control-sm mb-4" placeholder="enter your email">
     									<input type="password" name="password" class="form-control form-control-gray form-control-sm mt-2 mb-4 mb-lg-3" placeholder="Enter your PAssword">
     									<div class="d-flex align-items-center mb-lg-3 mt-2 mt-lg-1">
-                                            <input type="checkbox" class="form-check-input rounded-0 border border-1 border-light-gray rounded-2 bg-black-opacity-30 text-lg mt-0"  value="" name="Same_address" id="rememberBox">
+                                            <input type="checkbox" class="form-check-input rounded-0 border border-1 border-light-gray rounded-2 bg-black bg-opacity-30 text-lg mt-0"  value="" name="Same_address" id="rememberBox">
                                             <label class="labels-check-input text-xs ms-3 align-text-top" for="rememberBox">
                                                 Remember Me
                                             </label>
@@ -372,7 +388,7 @@
     									</div>
     									<div class="col-12 col-lg-8 col-xl-7 order-1 order-lg-2">
     										<input type="radio" class="btn-check" name="shipping-method[]" id="shipping-method-1" checked>
-    										<label class="label-check border border-2 border-light-gray rounded-3 bg-black-opacity-30 w-100 d-flex align-items-center px-3 px-sm-4 py-4_5 mb-4 mb-lg-3" for="shipping-method-1">
+    										<label class="label-check border border-2 border-light-gray rounded-3 bg-black bg-opacity-30 w-100 d-flex align-items-center px-3 px-sm-4 py-4_5 mb-4 mb-lg-3" for="shipping-method-1">
     											<span class="d-flex align-items-center w-100">
     												<i class="icon-record text-gray px-1 me-sm-3 text-xl position-relative"></i>
     												<span class="text-xs lh-1 ms-2 w-100">
@@ -385,7 +401,7 @@
 												</span>
     										</label> 
     										<input type="radio" class="btn-check" name="shipping-method[]" id="shipping-method-2">
-    										<label class="label-check border border-2 border-light-gray rounded-3 bg-black-opacity-30 w-100 d-flex align-items-center px-3 px-sm-4 py-4_5 mb-4 mb-lg-3" for="shipping-method-2">
+    										<label class="label-check border border-2 border-light-gray rounded-3 bg-black bg-opacity-30 w-100 d-flex align-items-center px-3 px-sm-4 py-4_5 mb-4 mb-lg-3" for="shipping-method-2">
     											<span class="d-flex align-items-center w-100">
     												<i class="icon-record text-gray px-1 me-sm-3 text-xl position-relative"></i>
     												<span class="text-xs lh-1 ms-2 w-100">
@@ -398,7 +414,7 @@
 												</span>
     										</label>
     										<input type="radio" class="btn-check" name="shipping-method[]" id="shipping-method-3" >
-    										<label class="label-check border border-2 border-light-gray rounded-3 bg-black-opacity-30 w-100 d-flex align-items-center px-4 py-4_5 mb-5 mb-lg-0" for="shipping-method-3">
+    										<label class="label-check border border-2 border-light-gray rounded-3 bg-black bg-opacity-30 w-100 d-flex align-items-center px-4 py-4_5 mb-5 mb-lg-0" for="shipping-method-3">
     											<span class="d-flex align-items-center w-100">
     												<i class="icon-record text-gray px-1 me-sm-3 text-xl position-relative"></i>
     												<span class="text-xs lh-1 ms-2 w-100">
@@ -469,7 +485,7 @@
                                     <h3 class="headline-3 lh-1 text-uppercase text-800  mb-4 pb-2 text-center text-lg-start pt-5 pt-lg-0  mt-5 mt-lg-0">payment method</h3>
 
                                     <div class="">
-										<fieldset class="fieldset-check border border-2 border-light-gray rounded-3 bg-black-opacity-30 px-3 px-sm-4 py-4_5 mb-6">
+										<fieldset class="fieldset-check border border-2 border-light-gray rounded-3 bg-black bg-opacity-30 px-3 px-sm-4 py-4_5 mb-6">
 											<input type="radio" class="btn-check" name="payment-method[]" id="payment-method-1" checked>
 											<label class="label-check w-100 d-flex align-items-center" for="payment-method-1">
 												<span class="d-flex align-items-center w-100">
@@ -506,7 +522,7 @@
 											</div>
 										</fieldset>
                                         <input type="radio" class="btn-check" name="payment-method[]" id="payment-method-2">
-                                        <label class="label-check border border-2 border-light-gray rounded-3 bg-black-opacity-30 w-100 d-flex align-items-center px-3 px-sm-4 py-4_5 mb-6" for="payment-method-2">
+                                        <label class="label-check border border-2 border-light-gray rounded-3 bg-black bg-opacity-30 w-100 d-flex align-items-center px-3 px-sm-4 py-4_5 mb-6" for="payment-method-2">
                                             <span class="d-flex align-items-center w-100">
                                                 <i class="icon-record text-gray px-1 me-sm-3 text-xl position-relative"></i>
                                                 <span class="text-xs lh-1 ms-2 w-100">
@@ -520,7 +536,7 @@
 											</span>
                                         </label>
                                         <input type="radio" class="btn-check" name="payment-method[]" id="payment-method-3">
-                                        <label class="label-check border border-2 border-light-gray rounded-3 bg-black-opacity-30 w-100 d-flex align-items-center px-3 px-sm-4 py-4_5 mb-6" for="payment-method-3">
+                                        <label class="label-check border border-2 border-light-gray rounded-3 bg-black bg-opacity-30 w-100 d-flex align-items-center px-3 px-sm-4 py-4_5 mb-6" for="payment-method-3">
                                             <span class="d-flex align-items-center w-100">
                                                 <i class="icon-record text-gray px-1 me-sm-3 text-xl position-relative"></i>
                                                 <span class="text-xs lh-1 ms-2 w-100">

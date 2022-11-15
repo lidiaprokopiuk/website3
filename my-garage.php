@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ORV HeadQuarters - My Garage</title>
+	<title>ORV HeadQuarters - Thank you!</title>
 	<meta name="description" content="ATV & SxS performance shop that offers customization, upgrades along with your everyday maintenance! 42 Union Street, Smiths Falls, ON, Canada K7A 5C4.">
 
 	<meta name="format-detection" content="telephone=no">
-
+	
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,14 +18,14 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
 
-	<!-- ICONSAX ICONS -->
-	<link rel="stylesheet" type="text/css" href="assets/iconsax/style.css">
-	<!-- FONTAWESOME ICONS -->
+
+	<!-- Isonax ICONS -->
+	<link rel="stylesheet" href="assets/iconsax/style.css">
+    <!-- FONTAWESOME ICONS -->
 	<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/all.css">
-	
+    
 	<!-- Bootstrap ICONS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-	
 
 	<!-- Swiper CSS -->
 	<link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
@@ -53,7 +53,7 @@
 				<div class="row justify-content-center">
 					<div class="col-12 col-xl-10 d-lg-flex align-items-center mt-5 mt-lg-0 mb-5 mb-lg-4 pb-lg-2">
 						<h1 class="headline-2 text text-800 lh-1 text-uppercase me-lg-4 mb-0 d-lg-inline-block text-center text-lg-start">my vehicles</h1>
-						<button class="rounded-1 bg-dark-opacity-40 boxSize-md d-none d-lg-inline-block" data-bs-toggle="modal" data-bs-target="#addNewVechicle">
+						<button class="rounded-1 bg-stone bg-opacity-40 boxSize-md d-none d-lg-inline-block" data-bs-toggle="modal" data-bs-target="#addNewVechicle">
 							<span class="text-white">+</span>
 						</button>
 					</div>					
@@ -66,7 +66,7 @@
 							<div class="carousel-inner">
 								<div class="row justify-content-center">
 									<div class="col-12 col-xl-10">
-										<div class="carousel-item active rounded-3 bg-dark-opacity-40 py-5 px-4 p-lg-4 vehicle-info">
+										<div class="carousel-item active rounded-3 bg-stone bg-opacity-40 py-5 px-4 p-lg-4 vehicle-info">
 											<div class="row g-0 p-lg-2">
 												<div class="col-12 col-lg-6 text-center mb-4 mb-sm-5 mb-lg-0">
 													<h3 class="headline-3 lh-1 text-800 text-uppercase mb-5 mb-lg-3">MY ATV XXXC 2013</h3>
@@ -109,7 +109,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="carousel-item rounded-3 bg-dark-opacity-40 p-4 vehicle-info">
+										<div class="carousel-item rounded-3 bg-stone bg-opacity-40 p-4 vehicle-info">
 										<div class="row g-0 p-lg-2">
 												<div class="col-12 col-lg-6 text-center mb-4 mb-sm-5 mb-lg-0">
 													<h3 class="headline-3 lh-1 text-800 text-uppercase mb-5 mb-lg-3">CUSTOM</h3>
@@ -156,14 +156,14 @@
 								</div>								
 							</div>
 							<div class="d-flex justify-content-between mt-4 mt-lg-0">
-								<button class="carousel-control carousel-control-prev bg-dark-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-xl-auto boxSize-md ms-xl-4 flex-shrink-0" type="button" data-bs-target="#myGarage" data-bs-slide="prev">
+								<button class="carousel-control carousel-control-prev bg-stone bg-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-xl-auto boxSize-md ms-xl-4 flex-shrink-0" type="button" data-bs-target="#myGarage" data-bs-slide="prev">
 									<span class="carousel-control-prev-icon carousel-control-icon" aria-hidden="true"></span>
 									<span class="visually-hidden">Previous</span>
 								</button>
 								<button class="btn btn-black-gradient btn-xl btn-center mx-3 mx-sm-4 d-inline-block d-lg-none w-100 px-2" data-bs-toggle="modal" data-bs-target="#addNewVechicle">
 									Add New Vehicle +
 								</button>
-								<button class="carousel-control carousel-control-next bg-dark-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-xl-auto boxSize-md me-xl-4 flex-shrink-0" type="button" data-bs-target="#myGarage" data-bs-slide="next">
+								<button class="carousel-control carousel-control-next bg-stone bg-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-xl-auto boxSize-md me-xl-4 flex-shrink-0" type="button" data-bs-target="#myGarage" data-bs-slide="next">
 									<span class="carousel-control-next-icon carousel-control-icon" aria-hidden="true"></span>
 									<span class="visually-hidden">Next</span>
 								</button>
@@ -404,7 +404,7 @@
 												</div>												
 											</div>
 										</div>
-										<div class="row g-0 justify-content-center  order-details-content">
+										<div class="row g-0 justify-content-center order-details-content">
 											<div class="col-12 col-lg-10">
 												<div class="row">
 													<div class="col-12 col-sm-6 col-lg-4 mb-4 pb-sm-3 order-2 order-lg-1 mt-4 mt-lg-0">
@@ -417,12 +417,12 @@
 													<div class="col-12 col-lg-8 order-1 order-lg-2">
 														<p class="text-xxs lh-1 text-500 mb-3 opacity-60 d-none d-lg-block">Costs</p>
 														<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-															<div>
-																<img src="assets/images/Products/wheel.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
+															<div class="w-45 flex-shrink-0">
+																<img src="assets/images/Products/wheel.png" class="mx-2 pe-1 d-none d-sm-inline-block boxSize-md h-auto" alt="air filer">
 																<p class="text-xxs lh-1 mb-0 d-inline-block">Wheel</p>
 															</div>
-															<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-															<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+															<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+															<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 														</div>														
 													</div>
 													<div class="col-12 col-lg-4 order-4 order-lg-3 mt-4 mt-lg-0">
@@ -500,7 +500,7 @@
 										<div class="d-flex justify-content-between align-items-center w-100 h-100 accordion-header-text order-details-headline">
 											<span class="me-4 d-none d-sm-flex align-items-center order-details-imgs">
 												<img src="assets/images/Products/belt_engine.png" class="img-fluid order-details-img mb-auto w-75" alt="belt engine">
-												<img src="assets/images/Products/air_filter.png" class="img-fluid order-details-img mt-auto w-75" alt="air filer ms-neg-xs">
+												<img src="assets/images/Products/air_filter.png" class="img-fluid order-details-img mt-auto w-75 ms-neg-xs" alt="air filer">
 											</span>
 											<table class="table text-white table-borderless mb-0">	
 												<thead>
@@ -602,20 +602,20 @@
 													<div class="col-12 col-lg-8 order-1 order-lg-2">
 														<p class="text-xxs lh-1 text-500 mb-3 opacity-60 d-none d-lg-block">Costs</p>
 														<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-															<div>
-																<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
+															<div class="w-45 flex-shrink-0">
+																<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block boxSize-md h-auto" alt="air filer">
 																<p class="text-xxs lh-1 mb-0 d-inline-block">Air Engine Filter</p>
 															</div>
-															<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-															<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+															<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+															<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 														</div>
 														<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-															<div>
-																<img src="assets/images/Products/belt_engine.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="belt engine">
+															<div class="w-45 flex-shrink-0">
+																<img src="assets/images/Products/belt_engine.png" class="mx-2 pe-1 d-none d-sm-inline-block boxSize-md h-auto" alt="belt engine">
 																<p class="text-xxs lh-1 mb-0 d-inline-block">Belt Engine</p>
 															</div>
-															<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-															<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+															<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+															<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 														</div>
 													</div>
 													<div class="col-12 col-lg-4 order-4 order-lg-3 mt-4 mt-lg-0">
@@ -795,20 +795,20 @@
 													<div class="col-12 col-lg-8 order-1 order-lg-2">
 														<p class="text-xxs lh-1 text-500 mb-3 opacity-60 d-none d-lg-block">Costs</p>
 														<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-															<div>
-																<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
+															<div class="w-45 flex-shrink-0">
+																<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block boxSize-md h-auto" alt="air filer">
 																<p class="text-xxs lh-1 mb-0 d-inline-block">Air Engine Filter</p>
 															</div>
-															<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-															<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+															<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+															<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 														</div>
 														<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-															<div>
-																<img src="assets/images/Products/belt_engine.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="belt engine">
+															<div class="w-45 flex-shrink-0">
+																<img src="assets/images/Products/belt_engine.png" class="mx-2 pe-1 d-none d-sm-inline-block boxSize-md h-auto" alt="belt engine">
 																<p class="text-xxs lh-1 mb-0 d-inline-block">Belt Engine</p>
 															</div>
-															<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-															<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+															<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+															<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 														</div>
 													</div>
 													<div class="col-12 col-lg-4 order-4 order-lg-3 mt-4 mt-lg-0">
@@ -985,12 +985,12 @@
 													<div class="col-12 col-lg-8 order-1 order-lg-2">
 														<p class="text-xxs lh-1 text-500 mb-3 opacity-60 d-none d-lg-block">Costs</p>
 														<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-															<div>
-																<img src="assets/images/Products/belt_engine.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
+															<div class="w-45 flex-shrink-0">
+																<img src="assets/images/Products/belt_engine.png" class="mx-2 pe-1 d-none d-sm-inline-block boxSize-md h-auto" alt="air filer">
 																<p class="text-xxs lh-1 mb-0 d-inline-block">Belt Engine</p>
 															</div>
-															<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-															<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+															<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+															<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 														</div>														
 													</div>
 													<div class="col-12 col-lg-4 order-4 order-lg-3 mt-4 mt-lg-0">
@@ -1077,13 +1077,13 @@
 	<!-- __________________________________________________________________________________________________________ -->
 
 		<!-- MODAL addNewVechicle  -->
-		<div class="modal fade addNewVechicle" id="addNewVechicle" tabindex="-1" aria-labelledby="addNewVechicle" aria-hidden="true">
+		<div class="modal z-index_1200 fade addNewVechicle" id="addNewVechicle" tabindex="-1" aria-labelledby="addNewVechicle" aria-hidden="true">
 			<button type="button" class="btn-close m-0 p-0 opacity-100 text-white bg-img-none position-absolute top-0 start-0 p-3" data-bs-dismiss="modal" aria-label="Close">
 				<i class="icon-arrow-left"></i>
 			</button>
 			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
 				<div class="modal-content bg-dark rounded-3">
-					<div class="modal-body p-0 h-100">
+					<div class="modal-body scroll-dark p-0 h-100">
 						
 						<div class="card border-white border-opacity-05 rounded-3 card-bg-dark min-h-100">
 							<div class="card-body p-4 p-sm-5 position-relative d-flex flex-column">
@@ -1152,13 +1152,13 @@
 
 
 		<!-- MODAL selectAvatar -->
-		<div class="modal fade selectAvatar" id="selectAvatar" tabindex="-1" aria-labelledby="selectAvatar" aria-hidden="true">
+		<div class="modal z-index_1200 fade selectAvatar" id="selectAvatar" tabindex="-1" aria-labelledby="selectAvatar" aria-hidden="true">
 			<button type="button" class="btn-close m-0 p-0 opacity-100 text-white bg-img-none position-absolute top-0 start-0 p-3" data-bs-dismiss="modal" aria-label="Close">
 				<i class="icon-arrow-left"></i>
 			</button>
 			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
 				<div class="modal-content bg-dark rounded-3">
-					<div class="modal-body p-0 h-100">
+					<div class="modal-body p-0 h-100 scroll-dark">
 						<div class="card border-white border-opacity-05 rounded-3 card-bg-dark min-h-100">
 							<div class="card-body p-4 p-sm-5 position-relative">
 								<button type="button" class="btn-close p-4 p-sm-5 opacity-100 text-white d-inline-block d-lg-none w-auto text-end position-absolute top-0 end-0 bg-img-none h-auto" data-bs-dismiss="modal" aria-label="Close">
@@ -1215,11 +1215,11 @@
 														</div>
 													</div>
 												</div>
-												<button class="carousel-control-prev bg-dark-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md" type="button" data-bs-target="#changeColorVehicle" data-bs-slide="prev">
+												<button class="carousel-control-prev bg-stone bg-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md" type="button" data-bs-target="#changeColorVehicle" data-bs-slide="prev">
 													<span class="carousel-control-prev-icon carousel-control-icon" aria-hidden="true"></span>
 													<span class="visually-hidden">Previous</span>
 												</button>
-												<button class="carousel-control-next bg-dark-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md" type="button" data-bs-target="#changeColorVehicle" data-bs-slide="next">
+												<button class="carousel-control-next bg-stone bg-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md" type="button" data-bs-target="#changeColorVehicle" data-bs-slide="next">
 													<span class="carousel-control-next-icon carousel-control-icon" aria-hidden="true"></span>
 													<span class="visually-hidden">Next</span>
 												</button>
@@ -1263,11 +1263,11 @@
 														</div>
 													</div>
 												</div>
-												<button class="carousel-control-prev bg-dark-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md" type="button" data-bs-target="#changeModelVehicle" data-bs-slide="prev">
+												<button class="carousel-control-prev bg-stone bg-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md" type="button" data-bs-target="#changeModelVehicle" data-bs-slide="prev">
 													<span class="carousel-control-prev-icon carousel-control-icon" aria-hidden="true"></span>
 													<span class="visually-hidden">Previous</span>
 												</button>
-												<button class="carousel-control-next bg-dark-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md" type="button" data-bs-target="#changeModelVehicle" data-bs-slide="next">
+												<button class="carousel-control-next bg-stone bg-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md" type="button" data-bs-target="#changeModelVehicle" data-bs-slide="next">
 													<span class="carousel-control-next-icon carousel-control-icon" aria-hidden="true"></span>
 													<span class="visually-hidden">Next</span>
 												</button>
@@ -1310,14 +1310,15 @@
 							
 
 
-	<!-- Bootstrap JS -->
+	<!-- Bootstrap JS -->	
 	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.min.js" async></script>	
 
 	<!-- Tom Select JS -->
 	<script src="https://cdn.jsdelivr.net/npm/tom-select@2.1.0/dist/js/tom-select.complete.min.js"></script>
 
 	<!-- Swiper JS -->
-	<script src="assets/swiper/swiper-bundle.min.js" asunc></script>
+	<script src="assets/swiper/swiper-bundle.min.js" defer></script>
+
 	<!-- JS -->
 	<script type="text/javascript" src="assets/js/calender.js" defer></script>
 	<script type="text/javascript" src="assets/js/script.js" defer></script>

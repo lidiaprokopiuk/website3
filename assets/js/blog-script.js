@@ -59,3 +59,5 @@ bannerAds.forEach((banner) => {
     +'</div>'
     + '<img src="assets/images/Background/Trace.png" alt="trace" class="position-absolute start-50 top-50 opacity-25 w-50 z-index_0 newsletter-bg-img" style="transform: translate(7%,-30%) rotate(-23deg);">';
 })
+
+

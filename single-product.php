@@ -64,11 +64,11 @@
 									<img src="assets/images/Products/Helm_2_back.png" alt="product helmet back" class="img-fluid w-65">
 								</div>							
 							</div>
-							<button class="carousel-control-prev bg-dark-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md ms-xl-4 d-none d-xxl-block" type="button" data-bs-target="#carouselProduct" data-bs-slide="prev">
+							<button class="carousel-control-prev bg-stone bg-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md ms-xl-4 d-none d-xxl-block" type="button" data-bs-target="#carouselProduct" data-bs-slide="prev">
 								<span class="carousel-control-prev-icon carousel-control-icon" aria-hidden="true"></span>
 								<span class="visually-hidden">Previous</span>
 							</button>
-							<button class="carousel-control-next bg-dark-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md me-xl-4 d-none d-xxl-block" type="button" data-bs-target="#carouselProduct" data-bs-slide="next">
+							<button class="carousel-control-next bg-stone bg-opacity-50 opacity-100 rounded-1 top-50 bottom-50 my-auto boxSize-md me-xl-4 d-none d-xxl-block" type="button" data-bs-target="#carouselProduct" data-bs-slide="next">
 								<span class="carousel-control-next-icon carousel-control-icon" aria-hidden="true"></span>
 								<span class="visually-hidden">Next</span>
 							</button>
@@ -84,13 +84,13 @@
 									</a>
 								</div>
 								<div class="col-4 text-end d-none d-xxl-block">
-									<a href="#" class="me-4 text-white text-decoration-none d-inline-block" target="_blank">
+									<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Forvheadquarters%2F&amp;src=sdkpreparse" target="_blank" class="me-4 text-white text-decoration-none d-inline-block fb-share-button" data-href="https://www.facebook.com/orvheadquarters/" data-layout="button">
 										<i class="icon-export-1 text-xs me-2"></i>
 										<p class="text-xxs lh-1 text-600 mb-0 d-inline-block align-text-top">Share</p>
 									</a>
-									<a	href="#" class="text-white text-decoration-none d-inline-block align-top" target="_blank">
+									<button class="text-white text-decoration-none d-inline-block align-top">
 										<i class="icon-heart like-symbol text-xxs"></i>
-									</a>
+									</button>
 								</div>
 							</div>
 							<h2 class="headline-2 text-800 lh-1 text-uppercase mb-6 mb-lg-3 text-center text-md-start">
@@ -177,29 +177,29 @@
 					<div class="col-12 order-4 order-lg-3 mb-5 mb-lg-0 product-thumbnails">
 						<div class="row justify-content-center justify-content-lg-start g-0">
 							<div class="col-9 col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-6 position-relative">
-								<button class="carousel-product-control carousel-control-prev bg-dark-opacity-50 opacity-100 rounded-1 my-auto boxSize-md ms-xl-4 d-lg-none" type="button" data-bs-target="#carouselProduct" data-bs-slide="prev">
+								<button class="carousel-product-control carousel-control-prev bg-stone bg-opacity-50 opacity-100 rounded-1 my-auto boxSize-md ms-xl-4 d-lg-none" type="button" data-bs-target="#carouselProduct" data-bs-slide="prev">
 									<span class="carousel-control-prev-icon carousel-control-icon" aria-hidden="true"></span>
 									<span class="visually-hidden">Previous</span>
 								</button>
-								<button class="carousel-product-control carousel-control-next bg-dark-opacity-50 opacity-100 rounded-1 my-auto boxSize-md me-xl-4 d-lg-none" type="button" data-bs-target="#carouselProduct" data-bs-slide="next">
+								<button class="carousel-product-control carousel-control-next bg-stone bg-opacity-50 opacity-100 rounded-1 my-auto boxSize-md me-xl-4 d-lg-none" type="button" data-bs-target="#carouselProduct" data-bs-slide="next">
 									<span class="carousel-control-next-icon carousel-control-icon" aria-hidden="true"></span>
 									<span class="visually-hidden">Next</span>
 								</button>
 								<div class="carousel-indicators carouselProduct-indicators position-relative m-0" id="indicators">
-									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="0" class="active position-relative w-100	h-100 opacity-100 m-0 bg-dark-opacity-40 border-0" aria-current="true" aria-label="Slide 1">
+									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="0" class="active position-relative w-100	h-100 opacity-100 m-0 bg-stone bg-opacity-40 border-0" aria-current="true" aria-label="Slide 1">
 										<img src="assets/images/Products/Helm_2.png" alt="product helmet" class="h-100 position-absolute top-50 start-50 translate-middle p-2 p-sm-4">
 									</button>
-									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="1" class="position-relative w-100	h-100 opacity-100 m-0 bg-dark-opacity-40 border-0" aria-label="Slide 2">
+									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="1" class="position-relative w-100	h-100 opacity-100 m-0 bg-stone bg-opacity-40 border-0" aria-label="Slide 2">
 										<img src="assets/images/Products/Helm_2_front.png" alt="product helmet" class="h-100 position-absolute top-50 start-50 translate-middle p-2 p-sm-4">
 									</button>
-									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="2" class="position-relative w-100	h-100 opacity-100 m-0 bg-dark-opacity-40 border-0" aria-label="Slide 3">
+									<button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="2" class="position-relative w-100	h-100 opacity-100 m-0 bg-stone bg-opacity-40 border-0" aria-label="Slide 3">
 										<img src="assets/images/Products/Helm_2_back.png" alt="product helmet" class="h-100 position-absolute top-50 start-50 translate-middle p-2 p-sm-4">
 									</button>
 								</div>
 							</div>
 						</div>						
 					</div>
-					<div class="product-summary position-absolute bg-dark-opacity-40 border-top border-white border-opacity-05 bottom-0 end-0 w-100 col-12 order-2 order-lg-4 py-4_5 py-lg-0">
+					<div class="product-summary position-absolute bg-stone bg-opacity-40 border-top border-white border-opacity-05 bottom-0 end-0 w-100 col-12 order-2 order-lg-4 py-4_5 py-lg-0">
 						<div class="container h-100 px-0">
 							<div class="row align-items-center justify-content-center justify-content-lg-end h-100 ms-lg-aut0">
 								<div class="col-7 col-sm-6 col-md-4 col-lg-2 col-xl-3 col-xxl-2 mb-4 mb-sm-0">
@@ -234,13 +234,13 @@
 
 
 		<!-- Modal addedToCard _____________________________________________________________________________________________________________________________________ -->
-		<div class="modal fade addedToCard" id="addedToCard" tabindex="-1" aria-labelledby="addedToCard" aria-hidden="true">
+		<div class="modal z-index_1200 fade addedToCard" id="addedToCard" tabindex="-1" aria-labelledby="addedToCard" aria-hidden="true">
 			<button type="button" class="btn-close m-0 p-0 opacity-100 text-white bg-img-none position-absolute top-0 start-0 p-3" data-bs-dismiss="modal" aria-label="Close">
 				<i class="icon-arrow-left"></i>
 			</button>
 			<div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
 				<div class="modal-content bg-dark">
-					<div class="searchModal-body modal-body p-0 h-100">						
+					<div class="searchModal-body modal-body scroll-dark p-0 h-100">						
 						<div class="card border-0 rounded-3 bg-radial-gray border border-2 border-white min-h-100 justify-content-center">
 							<div class="position-relative w-100 h-100 border-anim">
 								<!-- <span class="boxSize-sm bg-white position-absolute top-0 start-50 translate-middle"></span> -->
@@ -297,6 +297,9 @@
 
 	<!-- Tom Select JS -->
 	<script src="https://cdn.jsdelivr.net/npm/tom-select@2.1.0/dist/js/tom-select.complete.min.js"></script>
+
+	<!-- Facebook Share Button -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v15.0" nonce="W1rSqIoK"></script>
 
 	<!-- Swiper JS -->
 	<script src="assets/swiper/swiper-bundle.min.js" defer></script>

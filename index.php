@@ -62,12 +62,12 @@
 				</div>
 			</div>
 			<img src="assets/images/home-page-header.png" class="hero-bg-img position-absolute bottom-0 end-0 z-index_-1 img-fluid" alt="">
-			<div class="bg-dark-opacity-50 py-4 py-lg-5">
+			<div class="bg-stone bg-opacity-50 py-4 py-lg-5">
 				<div class="container pt-2 pb-4">
 					<div class="row align-items-end justify-content-center">
 						<div class="col-12 col-md-10 col-lg-5 mb-5 mb-lg-0">
 							<label class="text-xs text-500 lh-1 text-uppercase mb-2 opacity-60">search</label>
-							<input class="form-control form-control-sm" type="search" placeholder="type a part name" aria-label="Search">
+							<input class="form-control form-control-sm" type="text" placeholder="type a part name" aria-label="Search">
 						</div>
 						<div class="col-12 col-md-10 col-lg-4 mb-5 mb-lg-0">							
 							<label class="text-xs text-500 lh-1 text-uppercase mb-2 opacity-60">part category</label>
@@ -230,7 +230,7 @@
 						<a href="#" class="card-top-offer card card-bg-dark border-primary border-7 rounded-3 p-3 p-sm-4 text-decoration-none text-white card-animation">
 							<div class="d-flex flex-wrap flex-sm-nowrap justify-content-end justify-content-lg-between px-xl-2 pt-xl-2">
 								<h3 class="headline-3 text-800 text-uppercase lh-1 w-100 mb-0 order-2 order-sm-1 text-center text-sm-start">today's <br> hot offer!</h3>
-								<div class="badge bg-white-opacity-60 px-4 px-xl-5 py-2 d-flex flex-wrap flex-column justify-content-center align-content-center order-1 order-sm-2 mb-4">
+								<div class="badge bg-white bg-opacity-60 px-4 px-xl-5 py-2 d-flex flex-wrap flex-column justify-content-center align-content-center order-1 order-sm-2 mb-4">
 									<p class="text-md text-700 text-uppercase lh-1 mb-0">save</p>
 									<p class="text-xl text-800 lh-1 mb-0">$100</p>
 								</div>
@@ -299,7 +299,7 @@
 				<div class="row align-items-end mb-5 pb-xl-4">
 					<div class="col-3">
 						<p class="text-xs text-500 lh-1 text-uppercase mb-2 opacity-60">search</p>
-						<input class="form-control form-control-gray form-control-xs rounded-1 px-3" type="search" aria-label="Search" placeholder="type a part name">
+						<input class="form-control form-control-gray form-control-xs rounded-1 px-3" type="text" aria-label="Search" placeholder="type a part name">
 					</div>
 					<div class="col-2">							
 						<p class="text-xs text-500 lh-1 text-uppercase mb-2 opacity-60">year</p>
@@ -347,7 +347,7 @@
 									</p>
 								</div>
 								<div class="d-flex justify-content-between align-items-end  mb-2 mb-lg-0">
-									<p class="text-bebas text-xl lh-1 mb-2 mb-0">$500.00</p>
+									<p class="text-bebas text-xl lh-1 mb-0">$500.00</p>
 									<a href="single-product.php" class="btn-link text-xxs lh-1 text-500 text-uppercase text-decoration-none text-white  d-flex align-items-center">
 										details 
 										<i class="icon-arrow-right-3 ms-2 text-4xs"></i>
@@ -423,7 +423,8 @@
 				<div class="row justify-content-center">
 					<div class="col-5 col-xxl-4">
 						<a href="products-page.php" class="btn btn-primary btn-center w-100">
-							See all&nbsp;<span class="" id="counterItem">132</span>&nbsp;results
+							<span class="flex-shrink-0">See all</span>
+							&nbsp;<span class="" id="counterItem">132</span>&nbsp;results
 						</a>
 					</div>
 				</div>				

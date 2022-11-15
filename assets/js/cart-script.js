@@ -42,4 +42,34 @@ triggerTabs.forEach(triggerEl => {
 
 });
 
-	
+
+// 			          	BUTTON EDIT CART
+// ========================================================
+// ========================================================
+const btnEdit = document.querySelector('.btn-edit');
+
+
+btnEdit.onclick = function(e){
+  if (e.target.innerHTML === "Edit") {
+    e.target.innerHTML='Save Changes'
+  } else {
+    e.target.innerHTML='Edit'
+  }
+  document.querySelectorAll('#pills-cart .productItem').forEach((cartItem) => {
+    cartItem.querySelector('.removeButton.btn-link').classList.toggle('removeItem');
+
+    cartItem.querySelector('.removeButton.btn-link').onclick = function() {
+      const howManyProducts = document.querySelectorAll('#pills-cart .productItem').length;
+      if(howManyProducts > 1) {
+        document.querySelector("#pills-cart .productsNumber").innerHTML = howManyProducts + ' items';
+      } else if(howManyProducts === 0) {
+        document.querySelector("#pills-cart .productsNumber").innerHTML = howManyProducts + ' item';
+        btnEdit.classList.add('d-none');
+        btnEdit.classList.remove('d-inline-flex')
+      } else {
+        document.querySelector("#pills-cart .productsNumber").innerHTML = howManyProducts + ' item';
+      }
+
+    }
+  })
+}

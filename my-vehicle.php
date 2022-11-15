@@ -68,7 +68,7 @@
 							MY ATV 
 							<span class="d-inline-block">XXXC 2013</span>
 						</h2>
-						<div class="card bg-dark-opacity-40 rounded-3 p-3 vehicle-info">
+						<div class="card bg-stone bg-opacity-40 rounded-3 p-3 vehicle-info">
 							<div class="text-end">
 								<a href="#" class="text-decoration-none">
 									<i class="icon-setting-2 text-white text-xs"></i>
@@ -109,7 +109,7 @@
 				</div>	
 			</div>
 		</section>
-		<div class="section-cart bg-dark-opacity-40 py-4 px-3 p-lg-3">
+		<div class="section-cart bg-stone bg-opacity-40 py-4 px-3 p-lg-3">
 			<div class="container-fluid px-0">
 				<div class="row justify-content-center justify-content-lg-between">
 					<div class="col-12 col-lg-9 col-xxl-10">

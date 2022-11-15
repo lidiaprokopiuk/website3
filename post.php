@@ -51,7 +51,7 @@
 		<?php include './src/navbar.php';?>
 	</header>
 	<main>
-        <article class="mb-5 pb-5">
+        <article class="mb-5 pb-5 text-center text-sm-start">
             
             <div class="row gx-0 justify-content-center">
                 <div class="col-12 col-xl-11 mb-lg-5 pb-lg-4">
@@ -59,14 +59,14 @@
                         <img src="assets/images/Blog-images/post-2.png" alt="" class="article-header-img w-100 object-fit-cover rounded-3">
                         <div class="feature-img-overlay position-absolute w-100 h-100 top-0 d-block d-lg-none"></div>
                         <div class="article-header-text position-absolute w-100 h-100 top-0 rounded-3 d-flex flex-column justify-content-center px-4 px-md-5 px-lg-0 py-5 py-lg-0">
-                            <h1 class="headline-2 text-800 lh-1 text-start text-lg-center text-uppercase mb-3 pb-lg-3 px-md-5 px-lg-4 pt-1 pt-lg-0">ORV TEAM DESERT ADVENTURE</h1>
+                            <h1 class="headline-2 text-800 lh-1 text-center text-sm-start text-lg-center text-uppercase mb-3 pb-lg-3 px-md-5 px-lg-4 pt-1 pt-lg-0">ORV TEAM DESERT ADVENTURE</h1>
                             <div class="row justify-content-start justify-content-lg-center">
                                 <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-6">
                                     <div class="article-header-data background-card-darker rounded-pill d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-center px-md-5 p-lg-3">
                                         <p class="text-xs lh-1 text-600 pb-4 pb-md-0 d-inline mb-0">25 June 2022 9:21 AM</p>
-                                        <p class="text-xs lh-1 text-600 me-3 ms-auto pb-4 pb-md-0 d-inline mb-0">
+                                        <p class="btn-like text-xs lh-1 text-600 me-3 ms-auto pb-4 pb-md-0 d-inline mb-0">
                                             <i class="icon-like-1 me-2"></i>
-                                            121
+                                            <span class="count-likes">120</span>
                                         </p>
                                         <button class="btn btn-center btn-outline-white rounded-pill btn-2xs mt-3 mt-sm-5 mt-md-4 mt-lg-0">
                                             <i class="icon-export me-2 text-md"></i>
@@ -191,19 +191,21 @@
                         </div>
                     </div>      
                     <div class="col-12 col-md-10 col-lg-12 col-xl-10 share-buttons d-lg-flex justify-content-between">
-                        <button class="btn btn-center btn-outline-white w-30 mb-4 mb-lg-0">
+                        
+                        <button class="btn btn-center btn-like btn-facebook-like btn-outline-white w-30 mb-4 mb-lg-0 fb-like" data-href="https://www.facebook.com/orvheadquarters/" data-width="" data-layout="button" data-action="like">
                             Like
                             <i class="icon-like-1 mx-2 text-md"></i>
-                            121
+                            <span class="count-likes">120</span>
                         </button>
-                        <button class="btn btn-center btn-facebook w-30 mx-lg-auto mb-4 mb-lg-0">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Forvheadquarters%2F&amp;src=sdkpreparse" target="_blank" class="btn btn-center btn-facebook w-30 mx-lg-auto mb-4 mb-lg-0 fb-share-button" data-href="https://www.facebook.com/orvheadquarters/" data-layout="button">
                             <i class="fab fa-facebook text-md me-2"></i>
                             Share
-                        </button>
-                        <button class="btn btn-center btn-twitter w-30">
+                        </a>
+                        
+                        <a href="https://twitter.com/intent/tweet?text=Hello%20world" class="btn btn-center btn-twitter w-30">
                             <i class="fab fa-twitter text-md me-2"></i>
                             Tweet
-                        </button>
+                        </a>
                     </div>
                 </div>               
             </div>
@@ -230,6 +232,13 @@
 
     <!-- GLightBox JS -->
     <script type="text/javascript" src="assets/glightbox/glightbox.min.js" defer></script>
+
+    <!-- Facebook Share&LIKE Button -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_/sdk.js#xfbml=1&version=v15.0" nonce="GKph4IaL"></script>
+
+    <!-- Twitter Share Button -->
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 
 	<!-- JS -->
 	<script type="text/javascript" src="assets/js/calender.js" defer></script>

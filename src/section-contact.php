@@ -10,9 +10,6 @@
                 </a>
             </div>
             <div class="col-10 col-sm-8 col-lg-4">
-                <!-- <a href="mailto:info@gmail.com" class="btn btn-black btn-center w-100">
-                    <span class="btn-text">WRITE A MESSAGE</span> 
-                </a> -->
                 <a class="btn btn-black btn-center w-100" data-bs-toggle="offcanvas" href="#offcanvasMessage" role="button" aria-controls="offcanvasMessage">
                     <span class="btn-text">WRITE A MESSAGE</span> 
                 </a>

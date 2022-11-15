@@ -1,9 +1,9 @@
 <!-- OFFCANVAS CHAT ______________________________________________________________________________  -->
 <div class="offcanvas offcanvas-end bg-chat offcanvas-chat" tabindex="-1" id="offcanvasChat" aria-labelledby="offcanvasChat">
     <button class="close-offcanvas-chat d-none d-sm-block position-absolute top-50 start-0 translate-middle z-index_3" data-bs-dismiss="offcanvas">
-        <div class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
+        <span class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
             <i class="icon-arrow-right-3 lh-1 text-white text-500 text-md"></i>
-        </div>
+        </span>
     </button>
     <div class="offcanvas-header px-4 px-sm-5 d-block pt-0 pb-5 bg-primary-gradient-2">
         <div class="d-flex justify-content-between mb-3 align-items-center">
@@ -19,7 +19,7 @@
         </h3>
         <p class="text-xxs text-500 lh-1 mb-5 pb-4">Our qualified team will try to help you as best as possible. Tell us what do you need...</p>
     </div>
-    <div class="offcanvas-body px-3 px-sm-5 pb-5 pt-0 mt-neg-sm">
+    <div class="offcanvas-body scroll-dark px-3 px-sm-5 pb-5 pt-0 mt-neg-sm">
         <div class="card-bg-dark_2 border-1 border-white rounded-3 p-4 mb-4">
             <h5 class="headline-5 text-700 lh-1 mb-4 pb-1">Start a conversation</h5>
             <div class="d-flex mb-4 pb-2 align-items-center">
@@ -83,9 +83,9 @@
 <!-- OFFCANVAS Message __________________________________________________________________________ -->
 <div class="offcanvas offcanvas-end offcanvas-chat" tabindex="-1" id="offcanvasMessage" aria-labelledby="offcanvasMessage">
     <button class="close-offcanvas-chat d-none d-sm-block position-absolute top-50 start-0 translate-middle z-index_3" data-bs-dismiss="offcanvas">
-        <div class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
+        <span class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
             <i class="icon-arrow-right-3 lh-1 text-white text-500 text-md"></i>
-        </div>
+        </span>
     </button>
     <div class="offcanvas-header d-block pt-0 px-4 px-sm-5 pb-2 bg-primary-gradient-2">
         <div class="d-flex justify-content-between mb-3 align-items-center">
@@ -104,8 +104,8 @@
         </h3>
         <p class="text-xxs text-500 lh-1 mb-4 pb-sm-2">Our qualified team will try to help you as best as possible. Tell us what do you need...</p>
     </div>
-    <div class="offcanvas-body p-0 bg-chat position-relative overflow-hidden d-flex flex-column h-100" id="updateScroll">
-        <div class="message-dialog px-4 px-sm-5 pt-4 flex-grow-1 flex-shrink-0 flex-basis-auto">
+    <div class="offcanvas-body scroll-dark p-0 bg-chat position-relative overflow-hidden d-flex flex-column h-100" id="updateScroll">
+        <div class="message-dialog px-4 px-sm-5 pt-4 flex-grow-1 flex-shrink-0 flex-basis-auto scroll-dark">
             <div class="text-center mb-4 pb-2">
                 <p class="text-xxs text-gray mb-1">Start of an conversation</p>
                 <p class="text-xxs text-center lh-1 text-gray mb-0">10:31 AM, 16.07.2022</p>
@@ -154,11 +154,11 @@
                 </div>
             </div>
         </div>
-        <div class="bg-black-opacity-80 rounded-top-5 d-flex p-4 sticky-bottom w-100 bottom-0 start-0 bg-blur flex-shrink-0">
-            <div class="form-control form-control-md form-control-gray w-100">
+        <div class="bg-black bg-opacity-80 rounded-top-5 d-flex p-4 sticky-bottom w-100 bottom-0 start-0 bg-blur flex-shrink-0">
+            <div class="form-control form-control-md form-control-gray w-100 position-relative">
                 <span class="message-textbox d-inline-block w-80 lh-sm" role="textbox" id="messageBox" contenteditable data-placeholder="Your messsage"></span>
-                <div class="position-absolute d-flex align-items-center top-0 end-0 h-100 me-4 px-3">
-                    <div class="pe-3" role="button">
+                <div class="position-absolute d-flex align-items-end bottom-0 end-0 h-100 p-3">
+                    <div class="pe-3 boxSize-sm" role="button">
                         <label class="cursor-pointer" for="chooseFile">
                             <img src="assets/images/Icon/paper-clip.svg" alt="">
                         </label>
@@ -168,8 +168,8 @@
                     <i class="icon-send-1 text-xxxs rotate-45"></i>
                     </button>
                 </div>
+                <ul class="preview list-unstyled mb-0"></ul>
             </div>
-            <!-- <input class="form-control form-control-md form-control-gray w-100" type="search" placeholder="Your message" aria-label="Search"> -->
             
         </div>
     </div>
@@ -178,9 +178,9 @@
 <!-- OFFCANVAS CallBack __________________________________________________________________________ -->
 <div class="offcanvas offcanvas-end offcanvas-chat" tabindex="-1" id="offcanvasCallBack" aria-labelledby="offcanvasCallBack">
     <button class="close-offcanvas-chat d-none d-sm-block position-absolute top-50 start-0 translate-middle z-index_3" data-bs-dismiss="offcanvas">
-        <div class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
+        <span class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
             <i class="icon-arrow-right-3 lh-1 text-white text-500 text-md"></i>
-        </div>
+        </span>
     </button>
     <div class="offcanvas-header d-block pt-0 px-4 px-sm-5 pb-2 bg-primary-gradient-2">
         <div class="d-flex justify-content-between mb-3 align-items-center">
@@ -199,7 +199,7 @@
         </h3>
         <p class="text-xxs text-500 lh-1 mb-4 pb-sm-2">We can call you immediately if any of ours dispathers are free or you can also schedule an call for later.</p>
     </div>
-    <div class="offcanvas-body p-0 bg-chat position-relative h-100 d-flex flex-column">
+    <div class="offcanvas-body scroll-dark p-0 bg-chat position-relative h-100 d-flex flex-column">
         <div class="px-4 px-sm-5 pt-4 flex-grow-1 flex-shrink-0 flex-basis-auto">
             <p class="text-xs mb-3">Your phone number</p>
             <form class="mb-4 pb-2">
@@ -241,7 +241,7 @@
                 <span class="btn-text">take me there</span>
             </a>
         </div>				
-        <div class="bg-black-opacity-80 rounded-top-5 d-flex p-4 sticky-bottom w-100 justify-content-center bottom-0 start-0 bg-blur flex-shrink-0">
+        <div class="bg-black bg-opacity-80 rounded-top-5 d-flex p-4 sticky-bottom w-100 justify-content-center bottom-0 start-0 bg-blur flex-shrink-0">
             <a class="btn btn-primary btn-xs w-85" data-bs-toggle="offcanvas" href="#offcanvasMessage" role="button" aria-controls="offcanvasMessage">
                 <span class="btn-text">HOP ON A CHAT WITH US</span> 
             </a>
@@ -253,9 +253,9 @@
 <!-- OFFCANVAS Shedule Call Back __________________________________________________________________________ -->
 <div class="offcanvas offcanvas-end offcanvas-chat" tabindex="-1" id="offcanvasSheduleCallBack" aria-labelledby="offcanvasSheduleCallBack">
     <button class="close-offcanvas-chat d-none d-sm-block position-absolute top-50 start-0 translate-middle z-index_3" data-bs-dismiss="offcanvas">
-        <div class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
+        <span class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
             <i class="icon-arrow-right-3 lh-1 text-white text-500 text-md"></i>
-        </div>
+        </span>
     </button>
     <div class="offcanvas-header d-block pt-0 px-4 px-sm-5 pb-2 bg-primary-gradient-2">
         <div class="d-flex justify-content-between mb-3 align-items-center">
@@ -274,7 +274,7 @@
         </h3>
         <p class="text-xxs text-500 lh-1 mb-4 pb-sm-2">We can call you immediately if any of ours dispathers are free or you can also schedule an call for later.</p>
     </div>
-    <div class="offcanvas-body p-0 bg-chat position-relative">
+    <div class="offcanvas-body scroll-dark p-0 bg-chat position-relative">
         <div class="px-4 px-sm-5 pt-4">
             <p class="text-xs mb-3">Plan Your Call Back</p>
             <form class="mb-4 pb-2">
@@ -296,7 +296,7 @@
                     <option value="4">Dolor</option>
                 </select>
                 <textarea class="form-control form-control-gray form-control-sm mb-4 px-3" placeholder="shortly Describe your problem" rows="2"></textarea>
-                <div class="calender mb-4 border border-1 border-light-gray rounded-3 bg-black-opacity-30 p-4 pb-3">		
+                <div class="calender mb-4 border border-1 border-light-gray rounded-3 bg-black bg-opacity-30 p-4 pb-3">		
                     <div class="month d-flex justify-content-between text-xs text-700">
                         <i class="icon-arrow-left-2 prev"></i>
                         <span class="currentMonth">July 2022</span>
@@ -338,9 +338,9 @@
 <!-- OFFCANVAS PrevTicket __________________________________________________________________________ -->
 <div class="offcanvas offcanvas-end offcanvas-chat" tabindex="-1" id="offcanvasPrevTicket" aria-labelledby="offcanvasPrevTicket">
     <button class="close-offcanvas-chat d-none d-sm-block position-absolute top-50 start-0 translate-middle z-index_3" data-bs-dismiss="offcanvas">
-        <div class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
+        <span class="bg-primary-gradient border border-1 border-white border-opacity-15 rounded-circle d-flex justify-content-center align-items-center boxSize-md">
             <i class="icon-arrow-right-3 lh-1 text-white text-500 text-md"></i>
-        </div>
+        </span>
     </button>
     <div class="offcanvas-header d-block pt-0 px-4 px-sm-5 pb-2 bg-primary-gradient-2">
         <div class="d-flex justify-content-between mb-3 align-items-center">
@@ -359,7 +359,7 @@
         </h3>
         <p class="text-xxs text-500 lh-1 mb-4 pb-sm-2">Here you can find all of your thickets and see whole history of any ticket.</p>
     </div>
-    <div class="offcanvas-body p-0 bg-chat position-relative h-100 d-flex flex-column">
+    <div class="offcanvas-body scroll-dark p-0 bg-chat position-relative h-100 d-flex flex-column">
         <div class="px-4 px-sm-5 pt-4 flex-grow-1 flex-shrink-0 flex-basis-auto">					
             <p class="text-xs mb-3">Active</p>
             <button class="border border-primary border-2 rounded-3 card-bg-dark d-flex p-3 mb-5 align-items-center text-white w-100" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTicket" aria-controls="offcanvasTicket">
@@ -404,7 +404,7 @@
                 <i class="icon-arrow-right-3 ms-auto"></i>
             </button>
         </div>
-        <div class="bg-black-opacity-80 rounded-top-5 d-flex p-4 justify-content-center sticky-bottom w-100 bottom-0 start-0 bg-blur flex-shrink-0">
+        <div class="bg-black bg-opacity-80 rounded-top-5 d-flex p-4 justify-content-center sticky-bottom w-100 bottom-0 start-0 bg-blur flex-shrink-0">
             <a class="btn btn-primary btn-xs w-85" data-bs-toggle="offcanvas" href="#offcanvasMessage" role="button" aria-controls="offcanvasMessage">
                 <span class="btn-text">send a new message</span> 
             </a>

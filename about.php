@@ -137,7 +137,7 @@
                         <div class="d-flex flex-column justify-content-center h-100">
                             <h2 class="headline-2 lh-1 text-800 text-uppercase mb">OUR STORY</h2>
                             <p class="text-xs lh-1_1 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                            <button class="btn btn-center btn-primary align-self-start">BROWSE OUR PRODUCRS</button>
+                            <a href="products-page.php" class="btn btn-center btn-primary align-self-start">BROWSE OUR PRODUCRS</a>
                         </div>
                     </div>
                 </div>
@@ -218,6 +218,12 @@
 
 	<!-- Bootstrap JS -->	
 	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.min.js" async></script>	
+	
+	<!-- reCaptcha 3 -->
+	<script src="https://cdn.webarray.com/sites/pub/res/1.0.jspp?incl=rc3" crossorigin="anonymous" async></script>
+
+	<!-- Sweetalert 2 JS -->
+	<script type="text/javascript" src="assets/sweeatalert2/sweetalert2.all.min.js" defer></script>
 
 	<!-- Tom Select JS -->
 	<script src="https://cdn.jsdelivr.net/npm/tom-select@2.1.0/dist/js/tom-select.complete.min.js"></script>
@@ -229,5 +235,6 @@
 	<script type="text/javascript" src="assets/js/calender.js" defer></script>
 	<script type="text/javascript" src="assets/js/my-account-script.js" defer></script>
 	<script type="text/javascript" src="assets/js/script.js" defer></script>
+	<script type="text/javascript" src="assets/js/mailer.js" defer></script>
 </body>
 </html>

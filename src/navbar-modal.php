@@ -1,11 +1,11 @@
-<!-- Modal swichMachine ___________________________________________________________________________________________________ -->
-<div class="modal fade swichMachine" id="swichMachineModal" tabindex="-1" aria-labelledby="swichMachineModal" aria-hidden="true">
+<!-- modal  swichMachine ___________________________________________________________________________________________________ -->
+<div class="modal z-index_1200 fade swichMachine" id="swichMachineModal" tabindex="-1" aria-labelledby="swichMachineModal" aria-hidden="true">
     <button type="button" class="btn-close m-0 p-0 opacity-100 text-white bg-img-none position-absolute top-0 start-0 p-3" data-bs-dismiss="modal" aria-label="Close">
         <i class="icon-arrow-left"></i>
     </button>
     <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
         <div class="modal-content bg-dark rounded-3">		
-            <div class="modal-body h-100 p-0 rounded-0">
+            <div class="modal-body scroll-dark h-100 p-0 rounded-0">
                 <div class="card border-0 rounded-3 card-bg-dark min-h-100">
                     <div class="card-body p-5 position-relative d-flex flex-column justify-content-end justify-content-between">
                         <button type="button" class="btn-close p-4 p-sm-5 opacity-100 text-white d-inline-block d-lg-none w-auto text-end position-absolute top-0 end-0 bg-img-none h-auto" data-bs-dismiss="modal" aria-label="Close">

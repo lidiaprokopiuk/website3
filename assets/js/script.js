@@ -2,9 +2,31 @@
 // ========================================================
 // ========================================================
 
-const swiperContent = document.querySelector(".swiper");
-if (swiperContent) {
-	var mySwiper = new Swiper('.mySwiper', {
+//in navbar.php
+var swiper1 = new Swiper('.swiper.dropdownSwiper', {
+	slidesPerView: 1.15,	
+	spaceBetween: 24,		
+	breakpoints: {	
+		576: {
+			slidesPerView: 1.47,
+			spaceBetween: 24,
+		},
+		768: {
+			slidesPerView: 2,
+			spaceBetween: 24,
+		},
+		992: {
+			slidesPerView: 3,
+			spaceBetween: 12,
+		},
+	},
+});
+
+
+//index.php
+const mySwiper = document.querySelector(".mySwiper");
+if (mySwiper) {
+	var swiper2 = new Swiper('.swiper.mySwiper', {
 		slidesPerView: 1.15,
 		spaceBetween: 24,
 		grabCursor: true,
@@ -32,26 +54,12 @@ if (swiperContent) {
 		},
 		
 	});
-	var dropdownSwiper = new Swiper(".dropdownSwiper", {
-		slidesPerView: 1.15,	
-		spaceBetween: 24,		
-		breakpoints: {	
-			576: {
-				slidesPerView: 1.47,
-				spaceBetween: 24,
-			},
-			768: {
-				slidesPerView: 2,
-				spaceBetween: 24,
-			},
-			992: {
-				slidesPerView: 3,
-				spaceBetween: 12,
-			},
-		},
-	});
+}
 
-	var myFavoritesSwiper = new Swiper(".myFavorites", {
+//my-garage.php
+const myFavoritesSwiper = document.querySelector(".myFavorites");
+if (myFavoritesSwiper) {
+	var swiper3 = new Swiper('.swiper.myFavorites', {
 		slidesPerView: 1.15,
 		spaceBetween: 24,
 		grabCursor: true,	
@@ -73,8 +81,15 @@ if (swiperContent) {
 			},
 		},
 	});
+	console.log(myFavoritesSwiper)
+}
 
-	var cartSwiper = new Swiper(".cartSwiper", {
+
+
+//thankyou.php
+const cartSwiper = document.querySelector(".cartSwiper");
+if (cartSwiper) {
+	var swiper4 = new Swiper('.swiper.cartSwiper', {
 		slidesPerView: 1.15,
 		spaceBetween: 24,
 		breakpoints: {
@@ -159,11 +174,14 @@ if (chooseMachine) {
 const passValueBox = document.querySelector('.passValueBox');
 const checkBoxes = chooseMachine.querySelectorAll('.btn-check');
 
+	document.getElementById('swichMachineModal').addEventListener('click', (e) =>  {
+		e.stopPropagation();
+		let searchDropdown = new bootstrap.Dropdown("#searchDropdown");			
+		searchDropdown.show();
+	})
+
 	checkBoxes.forEach((checkBox) => {
-		checkBox.addEventListener('click', (e) => {
-			e.stopPropagation();
-			let searchDropdown = new bootstrap.Dropdown("#searchDropdown");			
-			searchDropdown.show();
+		checkBox.addEventListener('click', (e) => {		
 		if (checkBox.checked == true){
 			const vehilceName = e.target.nextElementSibling.textContent;			
 			passValueBox.addEventListener('click', (e) =>  {
@@ -177,23 +195,6 @@ const checkBoxes = chooseMachine.querySelectorAll('.btn-check');
 }
 
 
-// 							REMOVE BUTTONS
-// ========================================================
-// ========================================================
-
-const removeButton = document.querySelectorAll('.removeButton');
-
-if (removeButton) {
-	removeButton.forEach((remBtn) => {
-		remBtn.addEventListener('click', () => {
-			if (confirm("Are you sure?")) {
-				remBtn.parentNode.parentNode.remove();
-			  }
-			
-		})
-		
-	});
-}
 
 // 							CART 
 // ========================================================
@@ -306,14 +307,12 @@ if(mobileNav) {
       if (st > lastScrollTop || st < 5){
          mobileNav.classList.remove('fixed-top')
          document.body.style.paddingTop = '0';
-		 console.log('here')
 		 if(document.querySelector('.cart-page')) {
 			mobileNav.classList.add('position-absolute');
 		 }
       }
       else {
-         mobileNav.classList.add('fixed-top');
-		 
+         mobileNav.classList.add('fixed-top');		 
          navbar_height = mobileNav.offsetHeight;
          document.body.style.paddingTop = navbar_height + 'px';
 		 mobileNav.classList.remove('position-absolute');
@@ -322,12 +321,6 @@ if(mobileNav) {
       }
 
       lastScrollTop = st <= 0 ? 0 : st;
-
-		// if(st <= 0) {
-		// 	lastScrollTop = 0
-		// } else {
-		// 	lastScrollTop = st
-		// }
 	} 
    }, false);
    
@@ -336,13 +329,6 @@ if(mobileNav) {
 		
 	
 }
-// 
-// 						MOBILE NAVBAR
-// ========================================================
-// ========================================================
-
-
-
 
 // // 					SHOW CONTENT		
 // // ========================================================
@@ -362,14 +348,17 @@ window.addEventListener("load", () => {
 function showContent() {
 	if (window.innerWidth < 991.98) {
 		const buttonShowContent = document.querySelector('.buttonShowContent');
-		const buttonCloseContent = document.querySelector('.buttonCloseContent');
+		const buttonCloseContent = document.querySelectorAll('.buttonCloseContent');
 
 		buttonShowContent.addEventListener('click', () => {
 			sideMenu.classList.add('active');
 		});
-		buttonCloseContent.addEventListener('click', () => {
-			sideMenu.classList.remove('active');
-		});
+		buttonCloseContent.forEach((closeEl) => {
+			closeEl.addEventListener('click', () => {
+				sideMenu.classList.remove('active');
+			});
+		})
+		
 	}
 }
 
@@ -468,27 +457,45 @@ if (document.querySelector(".select-beast")) {
 // ========================================================
 
 const likeIcons = document.querySelectorAll('.like-symbol');
-likeIcons.forEach((likeIcon) => {
-	likeIcon.onclick = function(e){
-		if(e.target.classList.contains('icon-heart')) {
-			e.target.classList.remove('icon-heart');
-			e.target.classList.add('icon-heart1');
-		} else {
-			e.target.classList.remove('icon-heart1');
-			e.target.classList.add('icon-heart');
-		}
-		
-	}; 
-})
+if(likeIcons) {
+	likeIcons.forEach((likeIcon) => {
+		likeIcon.onclick = function(e){
+			if(e.target.classList.contains('icon-heart')) {
+				e.target.classList.remove('icon-heart');
+				e.target.classList.add('icon-heart1');
+			} else {
+				e.target.classList.remove('icon-heart1');
+				e.target.classList.add('icon-heart');
+			}
+			
+		}; 
+	})
+}
+const btnsLike = document.querySelectorAll('.btn-like');
 
 
+if(btnsLike) {
+	btnsLike.forEach((btnLike) => {
+		let count = 100;
+		const likeIcon1 = btnLike.querySelector('.icon-like-1');
+		const countLikes = btnLike.querySelector('.count-likes');
+		countLikes.textContent = count;
 
-//				CONTENT SCROLL TO BOTTOM PAGE
-// ========================================================
-// ========================================================y
+		btnLike.onclick = function(e){
+			if(likeIcon1.classList.contains('icon-like-1')) {
+				likeIcon1.classList.remove('icon-like-1');
+				likeIcon1.classList.add('icon-like-11');
+				countLikes.textContent = ++count;
 
-
-
+			} else {
+				likeIcon1.classList.remove('icon-like-11');
+				likeIcon1.classList.add('icon-like-1');
+				countLikes.textContent = --count;
+			}
+			
+		}; 
+	})
+}
 
 //				MESSAGE DIALOG HEIGHT
 // ========================================================
@@ -499,7 +506,7 @@ function contentheight() {
 	const messageDialog = document.querySelector('.message-dialog');
 	const messageHeader = document.querySelector('#offcanvasMessage .offcanvas-header');
 	
-	const messageTextbox = document.querySelector('#offcanvasMessage .bg-black-opacity-80');
+	const messageTextbox = document.querySelector('#offcanvasMessage .bg-black');
 	messageDialog.style.height = window.innerHeight - messageHeader.offsetHeight - messageTextbox.offsetHeight + 'px';
 	messageTextbox.addEventListener('keypress', () => {
 		messageDialog.style.height = window.innerHeight - messageHeader.offsetHeight - messageTextbox.offsetHeight + 'px';
@@ -509,6 +516,61 @@ function contentheight() {
 
 }
 contentheight();
-// if(document.getElementById("updateScroll")) {
-// 	document.getElementById("updateScroll").scrollTo(0, document.body.scrollHeight)
-// }
+
+
+// 							FILES
+// ========================================================
+// ========================================================
+
+const inputFile = document.getElementById('chooseFile');
+const preview = document.querySelector('.preview');
+inputFile.addEventListener('change', updateFiles);
+
+function updateFiles() {  
+	const curFiles = inputFile.files;
+		for (const file of curFiles) {
+			const listItem = document.createElement('li');
+			listItem.classList.add('mb-0', 'lh-1', 'text-gray', 'd-flex', 'align-items-center');	
+			listItem.textContent = `${file.name}`;
+			const removeFile = document.createElement('button');
+			removeFile.classList.add('removeButton', 'text-xxs', 'ms-1', 'text-gray');
+			listItem.appendChild(removeFile);
+			const removeIcon = document.createElement('i');
+			removeIcon.classList.add('icon-close-circle');	
+			removeFile.appendChild(removeIcon);
+			preview.appendChild(listItem);
+
+			removeFile.addEventListener('click', () => {
+				if (confirm("Are you sure?")) {
+					removeFile.parentNode.remove();
+				}				
+			})
+		}
+	}
+
+
+	
+// 							REMOVE BUTTONS
+// ========================================================
+// ========================================================
+
+const removeButton = document.querySelectorAll('.removeButton');
+
+if (removeButton) {
+
+	function removeItem() {
+		removeButton.forEach((remBtn) => {
+			remBtn.addEventListener('click', () => {
+				if (confirm("Are you sure?")) {
+					remBtn.parentNode.parentNode.remove();
+				  }
+				
+			})
+			
+		});
+	}
+	
+	
+}
+removeItem();
+

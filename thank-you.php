@@ -91,7 +91,7 @@
                                         </td>
                                         
                                         <td class="text-start mb-4 mb-sm-2 mb-lg-0 pt-4 pb-0 py-lg-3 d-inline-block d-lg-table-cell cell-item">
-                                            <img src="assets/images/Products/air_filter.png" alt="" class="me-2 d-inline d-sm-none d-lg-inline" width="51">
+                                            <img src="assets/images/Products/air_filter.png" alt="" class="me-2 d-inline d-sm-none d-lg-inline boxSize-md h-auto">
                                             <span class=""></span>Air Engine Filter
                                         </td>
                                         <td class="text-lg-center mb-2 mb-lg-0 py-0 py-lg-3 d-inline-block d-lg-table-cell cell-price">
@@ -116,7 +116,7 @@
                                         </td>
 
                                         <td class="text-start mb-4 mb-sm-2 mb-lg-0 pt-4 pb-0 py-lg-3 d-inline-block d-lg-table-cell cell-item">
-                                            <img src="assets/images/Products/belt_engine.png" alt="" class="me-2 d-inline d-sm-none d-lg-inline" width="51">
+                                            <img src="assets/images/Products/belt_engine.png" alt="" class="me-2 d-inline d-sm-none d-lg-inline boxSize-md h-auto">
                                             Engine Belt
                                         </td>
                                         <td class="text-lg-center mb-2 mb-lg-0 py-0 py-lg-3 d-inline-block d-lg-table-cell cell-price">
@@ -139,7 +139,7 @@
                                         </td>
 
                                         <td class="text-start mb-4 mb-sm-2 mb-lg-0 pt-4 pb-0 py-lg-3 d-inline-block d-lg-table-cell cell-item">
-                                            <img src="assets/images/Products/badge.jpg" alt="" class="me-2 d-inline d-sm-none d-lg-inline" width="51">
+                                            <img src="assets/images/Products/badge.jpg" alt="" class="me-2 d-inline d-sm-none d-lg-inline boxSize-md h-auto">
                                             ORV Club Badge
                                         </td>
                                         <td class="text-lg-center mb-2 mb-lg-0 py-0 py-lg-3 d-inline-block d-lg-table-cell cell-price"> 
@@ -162,7 +162,7 @@
                                         </td>
 
                                         <td class="text-start mb-4 mb-sm-2 mb-lg-0 pt-4 pb-0 py-lg-3 d-inline-block d-lg-table-cell cell-item">
-                                            <img src="assets/images/Products/badge.jpg" alt="" class="me-2 d-inline d-sm-none d-lg-inline" width="51">
+                                            <img src="assets/images/Products/badge.jpg" alt="" class="me-2 d-inline d-sm-none d-lg-inline boxSize-md h-auto">
                                             ORV Club Badge
                                         </td>
                                             <td class="text-lg-center mb-2 mb-lg-0 py-0 py-lg-3 d-inline-block d-lg-table-cell cell-price">
@@ -181,7 +181,7 @@
                                 </tbody>
                             </table>
                             <div class="text-center mt-3">
-                                <button class="btn btn-center btn-primary">VIEW OR MANAGE ORDER</button>
+                                <a href="my-account.php#my-orders" class="btn btn-center btn-primary">VIEW OR MANAGE ORDER</a>
                             </div>                            
                         </div>
                     </div>
@@ -302,7 +302,7 @@
                         </div>                      
                     </div>
                     <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xxl-3 text-center">
-                        <a href="#" class="btn btn-center btn-primary w-100">VIEW MORE ITEMS</a>
+                        <a href="products-page.php" class="btn btn-center btn-primary w-100">VIEW MORE ITEMS</a>
                     </div>
                 </div>
             </div>
@@ -314,7 +314,7 @@
                         <h2 class="headline-2 text-800 lh-1 text-uppercase mb-4 mb-lg-0 text-center text-lg-start">CHECK OUR WHEELS</h2>
                     </div>                  
                     <div class="col-10 col-sm-8 col-lg-4"> 
-                        <a href="#" class="btn btn-center btn-outline-white w-100 px-1 px-xl-4">
+                        <a href="products-page.php" class="btn btn-center btn-outline-white w-100 px-1 px-xl-4">
                             <span class="btn-text">Check what we got for you</span> 
                         </a>
                     </div>

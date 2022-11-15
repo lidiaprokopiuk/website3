@@ -70,41 +70,35 @@
                             </div>
                             
                             <div class="carousel-inner">
-                                <div class="carousel-item p-4_5 ps-lg-0 pt-lg-0 pe-lg-4 pb-lg-4 rounded-2 active">
-                                    <a href="post.php" class="text-decoration-none text-white">
-                                        <img src="assets/images/Blog-images/feature-post-1.png" class="d-block w-100 rounded-2 object-fit-cover carouselFeaturedPosts-img" alt="quads">
-                                        <div class="feature-img-overlay position-absolute w-100 h-100 top-0 d-block d-md-none"></div>
-                                        <div class="carousel-caption text-start border border-1 border-white border-opacity-10 rounded-2 bg-gradient-dark pb-5 pb-md-0 pt-3 py-lg-4 px-4_5 p-xxl-4 mb-6 mb-md-0 bottom-0 start-50 end-0 w-50 text-start text-md-center text-lg-start">
-                                            <p class="text-xxs text-600 lh-1 text-gray mb-2">25 June 2022</p>
-                                            <h4 class="headline-4 headline-lg-4  lh-1 text-800 mb-2">ORV adventure to forest</h4>
-                                            <p class="text-xs lh-1_1 mb-2">Lorem i psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                            <a href="post.php" class="btn btn-center btn-link-primary text-decoration-underline mb-6 mb-lg-0">Read more</a>
-                                        </div>
-                                    </a>
+                                <div class="carousel-item p-4_5 ps-lg-0 pt-lg-0 pe-lg-4 pb-lg-4 rounded-2 active">                                    
+                                    <img src="assets/images/Blog-images/feature-post-1.png" class="d-block w-100 rounded-2 object-fit-cover carouselFeaturedPosts-img" alt="quads">
+                                    <div class="feature-img-overlay position-absolute w-100 h-100 top-0 d-block d-md-none"></div>
+                                    <div class="carousel-caption text-center text-sm-start border border-1 border-white border-opacity-10 rounded-2 bg-gradient-dark pb-5 pb-md-0 pt-3 py-lg-4 px-4_5 p-xxl-4 mb-6 mb-md-0 bottom-0 start-50 end-0 w-50 text-start text-md-center text-lg-start">
+                                        <p class="text-xxs text-600 lh-1 text-gray mb-2">25 June 2022</p>
+                                        <h4 class="headline-4 headline-lg-4  lh-1 text-800 mb-2">ORV adventure to forest</h4>
+                                        <p class="text-xs lh-1_1 mb-2">Lorem i psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                        <a href="post.php" class="btn btn-center btn-link-primary text-decoration-underline mb-6 mb-lg-0">Read more</a>                                        
+                                    </div>                                   
+                                </div>
+                                <div class="carousel-item p-4_5 ps-lg-0 pt-lg-0 pe-lg-4 pb-lg-4 rounded-2">                                    
+                                    <img src="assets/images/Blog-images/post-1.png" class="d-block w-100 rounded-2 object-fit-cover carouselFeaturedPosts-img" alt="quads">
+                                    <div class="feature-img-overlay position-absolute w-100 h-100 top-0 d-block d-md-none"></div>
+                                    <div class="carousel-caption text-center text-sm-start border border-1 border-white border-opacity-10 rounded-2 bg-gradient-dark pb-5 pb-md-0 pt-3 py-lg-4 px-4_5 p-xxl-4 mb-6 mb-md-0 bottom-0 start-50 end-0 w-50 text-start text-md-center text-lg-start">
+                                        <p class="text-xxs text-600 lh-1 text-gray mb-2">25 June 2022</p>
+                                        <h4 class="headline-4 headline-lg-4  lh-1 text-800 mb-2">ORV adventure to forest</h4>
+                                        <p class="text-xs lh-1_1 mb-2">Lorem i psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                        <a href="post.php" class="btn btn-center btn-link-primary text-decoration-underline mb-6 mb-lg-0">Read more</a>
+                                    </div>
                                 </div>
                                 <div class="carousel-item p-4_5 ps-lg-0 pt-lg-0 pe-lg-4 pb-lg-4 rounded-2">
-                                    <a href="post.php" class="text-decoration-none text-white">
-                                        <img src="assets/images/Blog-images/post-1.png" class="d-block w-100 rounded-2 object-fit-cover carouselFeaturedPosts-img" alt="quads">
-                                        <div class="feature-img-overlay position-absolute w-100 h-100 top-0 d-block d-md-none"></div>
-                                        <div class="carousel-caption text-start border border-1 border-white border-opacity-10 rounded-2 bg-gradient-dark pb-5 pb-md-0 pt-3 py-lg-4 px-4_5 p-xxl-4 mb-6 mb-md-0 bottom-0 start-50 end-0 w-50 text-start text-md-center text-lg-start">
-                                            <p class="text-xxs text-600 lh-1 text-gray mb-2">25 June 2022</p>
-                                            <h4 class="headline-4 headline-lg-4  lh-1 text-800 mb-2">ORV adventure to forest</h4>
-                                            <p class="text-xs lh-1_1 mb-2">Lorem i psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                            <a href="post.php" class="btn btn-center btn-link-primary text-decoration-underline mb-6 mb-lg-0">Read more</a>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="carousel-item p-4_5 ps-lg-0 pt-lg-0 pe-lg-4 pb-lg-4 rounded-2">
-                                    <a href="post.php" class="text-decoration-none text-white">
-                                        <img src="assets/images/Blog-images/post-2.png" class="d-block w-100 rounded-2 object-fit-cover carouselFeaturedPosts-img" alt="quads">
-                                        <div class="feature-img-overlay position-absolute w-100 h-100 top-0 d-block d-md-none"></div>
-                                        <div class="carousel-caption text-start border border-1 border-white border-opacity-10 rounded-2 bg-gradient-dark pb-5 pb-md-0 pt-3 py-lg-4 px-4_5 p-xxl-4 mb-6 mb-md-0 bottom-0 start-50 end-0 w-50 text-start text-md-center text-lg-start">
-                                            <p class="text-xxs text-600 lh-1 text-gray mb-2">25 June 2022</p>
-                                            <h4 class="headline-4 headline-lg-4  lh-1 text-800 mb-2">ORV adventure to forest</h4>
-                                            <p class="text-xs lh-1_1 mb-2">Lorem i psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                            <a href="post.php" class="btn btn-center btn-link-primary text-decoration-underline mb-6 mb-lg-0">Read more</a>
-                                        </div>
-                                    </a>
+                                    <img src="assets/images/Blog-images/post-2.png" class="d-block w-100 rounded-2 object-fit-cover carouselFeaturedPosts-img" alt="quads">
+                                    <div class="feature-img-overlay position-absolute w-100 h-100 top-0 d-block d-md-none"></div>
+                                    <div class="carousel-caption text-center text-sm-start border border-1 border-white border-opacity-10 rounded-2 bg-gradient-dark pb-5 pb-md-0 pt-3 py-lg-4 px-4_5 p-xxl-4 mb-6 mb-md-0 bottom-0 start-50 end-0 w-50 text-start text-md-center text-lg-start">
+                                        <p class="text-xxs text-600 lh-1 text-gray mb-2">25 June 2022</p>
+                                        <h4 class="headline-4 headline-lg-4  lh-1 text-800 mb-2">ORV adventure to forest</h4>
+                                        <p class="text-xs lh-1_1 mb-2">Lorem i psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                        <a href="post.php" class="btn btn-center btn-link-primary text-decoration-underline mb-6 mb-lg-0">Read more</a>
+                                    </div>
                                 </div>
                             
                             </div>
@@ -124,7 +118,7 @@
                 </div>                
             </div>
         </section>
-        <section class="section-latest-posts mb-5 overflow-hidden">   
+        <section class="section-latest-posts mb-5 overflow-hidden text-center text-sm-start">   
             <div class="container"> 
                 <div class="row justify-content-center">
                     <div class="col-12 mb-5 text-center text-lg-start">
@@ -145,7 +139,7 @@
                                     </a>
                                     <span class="btn-like text-xs lh-1_1 d-none d-lg-inline-block" role="button">
                                         <i class="icon-like-1 me-2"></i>
-                                        120
+                                        <span class="count-likes">120</span>
                                     </span> 
                                 </div>
                             </div>
@@ -164,7 +158,7 @@
                                     </a>
                                     <span class="btn-like text-xs lh-1_1 d-none d-lg-inline-block" role="button">
                                         <i class="icon-like-1 me-2"></i>
-                                        120
+                                        <span class="count-likes">120</span>
                                     </span> 
                                 </div>
                             </div>
@@ -198,7 +192,7 @@
                                     </a>
                                     <span class="btn-like text-xs lh-1_1 d-none d-lg-inline-block" role="button">
                                         <i class="icon-like-1 me-2"></i>
-                                        120
+                                        <span class="count-likes">120</span>
                                     </span> 
                                 </div>
                             </div>
@@ -217,7 +211,7 @@
                                     </a>
                                     <span class="btn-like text-xs lh-1_1 d-none d-lg-inline-block" role="button">
                                         <i class="icon-like-1 me-2"></i>
-                                        120
+                                        <span class="count-likes">120</span>
                                     </span> 
                                 </div>
                             </div>
@@ -254,7 +248,7 @@
                 
             </div>
         </section>
-        <section class="section-oldest-posts mb-5 mb-md-0 mb-lg-4 mb-xl-1 mb-xxl-3">   
+        <section class="section-oldest-posts mb-5 mb-md-0 mb-lg-4 mb-xl-1 mb-xxl-3 text-center text-sm-start">   
             <div class="container"> 
                 <div class="row">
                     <div class="col-12 mb-5 pb-sm-5 pb-md-4 pb-xl-0 text-center text-lg-start">

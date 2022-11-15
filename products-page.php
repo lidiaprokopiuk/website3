@@ -42,7 +42,7 @@
 <body class="products-page bg-dark bg-noise text-white">
 	<header>
 		<div class="bg-chat border-bottom border-white border-1 border-opacity-05 d-flex d-lg-none justify-content-between w-100">
-			<a href="index.php" class="text-decoration-none text-white border-end border-white border-1 border-opacity-05 bg-black-opacity-30 d-flex justify-content-center align-items-center boxSize1-xxl">
+			<a href="index.php" class="text-decoration-none text-white border-end border-white border-1 border-opacity-05 bg-black bg-opacity-30 d-flex justify-content-center align-items-center boxSize1-xxl">
 				<i class="icon-arrow-left-2 text-md"></i>
 			</a>
 			<img src="assets/images/Logo/ORV-HeadQuarters.svg" alt="" width="117">
@@ -444,7 +444,7 @@
 												<div class="d-flex justify-content-between align-items-center mb-3 mb-lg-2 pt-2">
 													<p class="text-xxs lh-1 text-700 text-uppercase text-primary mb-0">fix price</p>
 													<p class="mb-0" role="button">
-														<i class="icon-heart like-symboswiper-btn-navl text-xxxs d-inline-block align-middle"></i>
+														<i class="icon-heart like-symbol text-xxxs d-inline-block align-middle"></i>
 													</p>											
 												</div>
 												<div class="d-flex justify-content-between align-items-end mb-2 mb-lg-0">
@@ -470,7 +470,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="section-filtr fixed-bottom bg-gradient-dark content-item">
+		<section class="section-filtr fixed-bottom bg-gradient-dark content-item scroll-dark">
 			<button class="more-options bg-primary rounded-circle top-0 start-50 translate-middle border border-white border-opacity-25 position-absolute justify-content-center align-items-center d-none d-lg-flex boxSize-md">
 				<i class="icon-arrow-up-2 text-md text-white text-500 more-option-arrow"></i>	
 			</button>
@@ -507,8 +507,8 @@
 							</div>
 							<div class="position-relative mx-2 mt-neg-3xs">
 								<div class="slider-track w-100 position-absolute m-auto top-0 bottom-0"></div>
-								<input type="range" min="0" max="2000" step="250" value="500" id="slider-1" oninput="slideOne()" name="range" class="w-100 position-absolute m-auto top-0 bottom-0 bg-transparent" list="tickmarks">
-								<input type="range" min="0" max="2000" step="250" value="1500" id="slider-2" oninput="slideTwo()" name="range" class="w-100 position-absolute m-auto top-0 bottom-0 bg-transparent" list="tickmarks">
+								<input type="range" min="0" max="2000" step="250" value="500" id="slider-1" oninput="slideOne()" name="range" class="w-100 position-absolute m-auto top-0 bottom-0 bg-transparent">
+								<input type="range" min="0" max="2000" step="250" value="1500" id="slider-2" oninput="slideTwo()" name="range" class="w-100 position-absolute m-auto top-0 bottom-0 bg-transparent">
 								<div class="progress bg-transparent rounded-0 tickmarks">
 									<div class="progress-bar bg-transparent border-end border-1 border-light-gray" role="progressbar" aria-label="Segment one" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 									<div class="progress-bar bg-transparent border-end border-1 border-light-gray" role="progressbar" aria-label="Segment two" style="width: 12.5%" aria-valuenow="12.5" aria-valuemin="0" aria-valuemax="100"></div>
@@ -615,20 +615,20 @@
 								</div>
 							</div>
 							<div class="row w-25 align-items-end d-none d-lg-flex">
-								<div class="col">
-									<a href="#" class="btn btn-primary">
+								<div class="col-12 col-xxl-11">
+									<button class="btn btn-primary w-100">
 										<span class="btn-text">FILTER</span> 
-									</a>
-								</div>
+									</button>
+								</div>								
 							</div>
 						</div>
 					</div>					
 				</div>
 			</div>	
-			<div class="bg-black-opacity-80 rounded-top-5 d-flex d-lg-none p-4 sticky-bottom w-100 bottom-0 start-0 bg-blur">
-				<a class="btn btn-primary btn-center w-100 text-camelcase">
+			<div class="bg-black bg-opacity-80 rounded-top-5 d-flex d-lg-none p-4 sticky-bottom w-100 bottom-0 start-0 bg-blur">
+				<button class="btn btn-primary btn-center w-100 text-camelcase buttonCloseContent">
 					<span class="btn-text">Apply 5 filters</span> 
-				</a>
+				</button>
 			</div>		
 		</section>
 	</main>

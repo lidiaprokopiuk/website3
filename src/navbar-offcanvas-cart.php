@@ -1,6 +1,6 @@
 <!-- OFFCANVAS CART __________________________________________________________________________ -->		
 <div class="offcanvas offcanvas-end bg-black-pearl cart-container" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCart">
-    <div class="p-4">
+    <div class="p-4 scroll-dark overflow-auto">
         <div class="offcanvas-header p-0">
             <h5 class="offcanvas-title" id="offcanvasLabel">
                 Cart 
@@ -18,11 +18,11 @@
                     <div class="d-sm-flex justify-content-between align-items-center mb-auto">
                         <p class="text-xs mb-0"><span class="opacity-50">UNIT PRICE</span> $<span class="unitPrice">500</span></p>
                         <div class="d-flex align-items-center mt-2 mt-sm-0">
-                        <button class="text-white border-gray border border-1 bg-dark-opacity-60 me-3 px-0 d-flex justify-content-center align-items-center rounded-1 counterCardDown boxSize-xs">
+                        <button class="text-white border-gray border border-1 bg-stone bg-opacity-60 me-3 px-0 d-flex justify-content-center align-items-center rounded-1 counterCardDown boxSize-xs">
                             <i class="icon-arrow-left-2 text-4xs"></i>
                         </button>
                         <p class="text-md text-700 mb-0 productNumber text-center">10</p>
-                        <button class="text-white border-gray border border-1 bg-dark-opacity-60 ms-3 px-0 d-flex justify-content-center align-items-center rounded-1 counterCardUp boxSize-xs">
+                        <button class="text-white border-gray border border-1 bg-stone bg-opacity-60 ms-3 px-0 d-flex justify-content-center align-items-center rounded-1 counterCardUp boxSize-xs">
                             <i class="icon-arrow-right-3 text-4xs"></i>
                         </button>
                         </div>
@@ -40,11 +40,11 @@
                     <div class="d-sm-flex justify-content-between align-items-center mb-auto">
                         <p class="text-xs mb-0"><span class="opacity-50">UNIT PRICE</span> $<span class="unitPrice">200</span></p>
                         <div class="d-flex align-items-center mt-2 mt-sm-0">
-                        <button class="text-white border-gray border border-1 bg-dark-opacity-60 me-3 px-0 d-flex justify-content-center align-items-center rounded-1 counterCardDown boxSize-xs">
+                        <button class="text-white border-gray border border-1 bg-stone bg-opacity-60 me-3 px-0 d-flex justify-content-center align-items-center rounded-1 counterCardDown boxSize-xs">
                             <i class="icon-arrow-left-2 text-4xs"></i>
                         </button>
                         <p class="text-md text-700 mb-0 productNumber text-center">1</p>
-                        <button class="text-white border-gray border border-1 bg-dark-opacity-60 ms-3 px-0 d-flex justify-content-center align-items-center rounded-1 counterCardUp boxSize-xs">
+                        <button class="text-white border-gray border border-1 bg-stone bg-opacity-60 ms-3 px-0 d-flex justify-content-center align-items-center rounded-1 counterCardUp boxSize-xs">
                             <i class="icon-arrow-right-3 text-4xs"></i>
                         </button>
                         </div>

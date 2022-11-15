@@ -58,9 +58,9 @@
 					</div>
                     <form class="register-form row justify-content-center pb-lg-2"> 
                         <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-9">                            
-                            <input type="email" class="form-control form-control-gray form-control-sm mb-6" name="E-Mail_Address#required#href_email#reply_email" placeholder="YOUR E-MIAL">
-                            <input type="text" class="form-control form-control-gray form-control-sm mb-6" name="Name#required#reply_name" placeholder="YOUR NAME">
-                            <input type="password" id="PassEntry" class="form-control form-control-gray form-control-sm mb-6" name="Password" placeholder="CREATE PASSWORD" minlength="8" autocomplete="new-password">
+                            <input type="email" class="form-control form-control-gray form-control-sm mb-6" name="E-Mail_Address#required#href_email#reply_email" placeholder="YOUR E-MIAL" required>
+                            <input type="text" class="form-control form-control-gray form-control-sm mb-6" name="Name#required#reply_name" placeholder="YOUR NAME" required>
+                            <input type="password" id="PassEntry" class="form-control form-control-gray form-control-sm mb-6" name="Password" placeholder="CREATE PASSWORD" minlength="8" autocomplete="new-password" required>
                             <div class="d-flex align-items-center mb-6 py-3 py-lg-0">
                                 <div class="progress w-100 bg-transparent w-75" id="strengthProgress">
                                     <div class="progress-bar bg-white me-2 rounded-pill w-20" role="progressbar" aria-label="Segment one"></div>

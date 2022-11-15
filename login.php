@@ -59,8 +59,8 @@
 					</div>
                     <form class="login-form row justify-content-center pb-lg-2">
                         <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-9">                            
-                            <input type="email" class="form-control form-control-gray form-control-sm mb-6" name="E-Mail_Address#required#href_email#reply_email" placeholder="E-mail">
-                            <input type="password" class="form-control form-control-gray form-control-sm mb-6 mb-lg-3" name="Password" placeholder="Password">
+                            <input type="email" class="form-control form-control-gray form-control-sm mb-6" name="E-Mail_Address#required#href_email#reply_email" placeholder="E-mail" required>
+                            <input type="password" class="form-control form-control-gray form-control-sm mb-6 mb-lg-3" name="Password" placeholder="Password" required>
                             <a href="#" class="d-block text-primary text-decoration-none text-xs lh-1_1 mb-6 pb-2 pb-lg-0">Forgot password?</a>
                         </div>
                         <div class="col-12 col-md-10 col-lg-6 col-xl-5 col-xxl-6">

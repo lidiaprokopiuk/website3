@@ -106,17 +106,19 @@
 										Lorem ipsum dolor sit amet, consectetur 
 										<span class="d-inline d-lg-block">adipiscing elit, sed do eiusmod tempor.</span>
 									</p>
-									<div class="row mb-2">
+									<div class="row mb-2 changeInformation">
 										<div class="col-12 col-lg-6 mb-4">
 											<div class="form-control form-control-sm">
 												<span class="text-light-gray">Name:</span>
-												<span>John</span>
+												<span class="hide position-absolute h-0 overflow-hidden"></span>
+												<input type="text" name="Name"  id="changeName"  class="contentText p-0 border-0 bg-transparent text-white" value="John" pattern="[a-zA-Z]+" disabled>
 											</div>
 										</div>
 										<div class="col-12 col-lg-6 mb-4">
 											<div class="form-control form-control-sm">
 												<span class="text-light-gray">Surname:</span>
-												<span>Smith</span>
+												<span class="hide position-absolute h-0 overflow-hidden"></span>
+												<input type="text" name="Surname"  id="changeSurname"  class="contentText p-0 border-0 bg-transparent text-white" value="Smith" pattern="[a-zA-Z]+" disabled>
 											</div>
 										</div>
 										<div class="col-12 col-lg-7 col-xl-6 mb-4">
@@ -124,18 +126,22 @@
 												<span class="text-light-gray">Phone number:</span>
 												<span>
 												<img src="assets/images/Flag/canada.png" alt="" class="img-fluids mx-2" width="26"> 
-												+1 613-566-3448
+												<span class="hide position-absolute h-0 overflow-hidden"></span>
+												<input type="tel" name="Phone number"  id="changePhone"  class="contentText p-0 border-0 bg-transparent text-white" value="613-566-3448" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" disabled> 
 												</span>
 											</div>
 										</div>
 										<div class="col-12 col-lg-5 col-xl-6 mb-4">
 											<div class="form-control form-control-sm">
 												<span class="text-light-gray">Birth:</span>
-												<span>22/02/1989</span>
+												<span class="hide position-absolute h-0 overflow-hidden"></span>
+												<input type="text" name="birth"  id="changeBirth"  class="contentText p-0 border-0 bg-transparent text-white" value="22/02/1989" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" placeholder="DD/MM/YYYY" disabled>
 											</div>
 										</div> 
-										<div class="col-12">
-											<a href="#" class="btn-lg-link text-xs lh-1 text-600 text-primary w-100 d-inline-block">Change personal informations</a>
+										<div class="col-12 text-white">
+											<div data-for="changePersonalInfo" class="cursor-pointer btn-lg-link text-xs lh-1 text-600 text-primary text-decoration-underline d-inline-block d-lg-flex align-items-center h-100 w-100 btn-change-info">
+												<span class="changeText">Edit</span>   personal informations
+											</div>
 										</div>
 									</div>
 								</div>
@@ -149,20 +155,24 @@
 										<div class="col-12 col-lg-7 col-xl-6 mb-4">
 											<div class="form-control form-control-sm">
 												<span class="text-light-gray">email:</span>
-												<span>JOHN.smith89@gmail.com</span>
+												<input type="email" name="Email" id="changeEmail" class="contentText p-0 border-0 bg-transparent text-white" value="JOHN.smith89@gmail.com" disabled>
 											</div>
 										</div>
 										<div class="col-12 col-lg-5 col-xl-6 mb-4">
-											<a href="#" class="btn-lg-link text-xs lh-1 text-600 text-primary d-inline-block d-lg-flex align-items-center h-100 w-100">Change e-mial</a>
+											<label for="changeEmail" class="cursor-pointer btn-lg-link text-xs lh-1 text-600 text-primary text-decoration-underline d-inline-block d-lg-flex align-items-center h-100 w-100 btn-change-content">
+												<span class="changeText">Change</span>  e-mial
+											</label>
 										</div>
 										<div class="col-12 col-lg-7 col-xl-6 mb-4">
 											<div class="form-control form-control-sm">
 												<span class="text-light-gray">PASSWORD:</span>
-												<span>********</span>
+												<input type="password" name="Password"  id="changePassword"  class="contentText p-0 border-0 bg-transparent text-white" value="WildRose2022" disabled>
 											</div>
 										</div>
 										<div class="col-12 col-lg-5 col-xl-6 mb-md-4">
-											<a href="#" class="btn-lg-link text-xs lh-1 text-600 text-primary d-inline-block d-lg-flex align-items-center h-100 w-100">Change password</a>
+											<label for="changePassword" class="cursor-pointer btn-lg-link text-xs lh-1 text-600 text-primary text-decoration-underline d-inline-block d-lg-flex align-items-center h-100 w-100 btn-change-content">
+												<span class="changeText">Change</span>  password
+											</label>
 										</div>
 									</div>
 									
@@ -171,47 +181,17 @@
 							<div class="tab-pane fade" id="v-address-book" role="tabpanel" aria-labelledby="v-address-book-tab" tabindex="0">
 								<div class="d-flex justify-content-center justify-content-lg-start align-items-center mb-4 text-center text-lg-starts">
 									<h3 class="headline-3 text-800 text-uppercase lh-1 mb-0 pb-lg-0">Address book</h3>
-									<button class="boxSize-sm bg-dark-opacity-40 rounded-2 d-none d-lg-flex justify-content-center align-items-center ms-4">
+									<button class="btn-add-address boxSize-sm bg-stone bg-opacity-40 rounded-2 d-flex justify-content-center align-items-center ms-4" data-bs-toggle="modal" data-bs-target="#addNewAddress">
 										<i class="icon-add text-white"></i>										
 									</button>
 								</div>								
 								<p class="text-xs lh-1_1 mb-6 text-center text-lg-start">Add new or edit your existing addresses</p>
 
 								<input type="radio" class="btn-check" name="address[]" id="address-1">
-								<label class="label-check address-label d-block d-lg-flex flex-wrap justify-content-between border border-2 rounded-3 border-light-gray bg-black bg-opacity-30 p-3 mb-6" for="address-1">
+								<label class="label-check address-label d-block d-lg-flex flex-wrap justify-content-between border border-2 rounded-3 border-light-gray bg-black bg-opacity-30 p-3 mb-6 changeInformation" for="address-1">
 									<span class="d-flex flex-column px-1 mb-3 mb-sm-4 mb-lg-0 pt-3 py-lg-3">	
-										<span class="d-inline-block text-md text-md-up lh-1 text-800 mb-0 mb-lg-2">Isabell Smith</span>
-										<span class="d-inline-block text-xs lh-1_1 mb-0">165-189 Hickory St. Ottawa, ON K1Y 3T7, Canada</span>
-									</span>
-									<span class="text-lg-end d-flex flex-row-reverse flex-lg-column pb-3 py-lg-3 px-1 px-lg-3 justify-content-between align-items-center">
-										<a href="#" class="removeButton text-decoration-none text-white text-end mb-auto d-none d-lg-inline-block">										
-											<i class="icon-trash d-block text-xs mb-auto"></i>
-										</a>
-										<a href="#" class="removeButton text-decoration-none text-white text-xs text-decoration-underline text-end mb-auto d-inline-block d-lg-none">	
-											Delete
-										</a>
-										<a href="" class="text-xs lh-1 text-600 text-white text-decoration-underline address-label-edit d-lg-none d-xl-inline-block">Edit this address</a>
-										<a href="" class="text-xs lh-1 text-600 text-white d-none d-lg-inline-block d-xl-none text-decoration-none">
-											<i class="icon-edit-2"></i>
-										</a>
-									</span>
-									<span class="mt-2 mt-lg-4 mb-3 px-1 address-label-checked d-none w-100">	
-										<span class="d-block  d-lg-inline-block text-primary text-xs lh-1_1 mb-3 mb-sm-4 mb-lg-0 me-lg-5 pe-lg-4">
-											<i class="bi bi-check2"></i>	
-											Default billing address
-										</span>
-										<span class="d-lg-inline-block text-primary text-xs lh-1_1 mb-0">
-											<i class="bi bi-check2"></i>	
-											Default shipping address
-										</span>
-									</span> 
-								</label>
-
-								<input type="radio" class="btn-check" name="address[]" id="address-2" checked>
-								<label class="label-check address-label d-block d-lg-flex flex-wrap justify-content-between address-label border border-2 rounded-3 border-light-gray bg-black bg-opacity-30 p-3 mb-6" for="address-2">
-									<span class="d-flex flex-column px-1 mb-3 mb-sm-4 mb-lg-0 pt-3 py-lg-3">	
-										<span class="d-inline-block text-md text-md-up lh-1 text-800 mb-0 mb-lg-2">Isabell Smith</span>
-										<span class="d-inline-block text-xs lh-1_1 mb-0">165-189 Hickory St. Ottawa, ON K1Y 3T7, Canada</span>
+										<span class="d-inline-block text-md text-md-up lh-1 text-800 mb-0 mb-lg-2 contentText" contenteditable='false' data-placeholder="Name Surname">Isabell Smith</span>
+										<span class="d-inline-block text-xs lh-1_1 mb-0 contentText" contenteditable='false' data-placeholder="2542 Front St. Ottawa, ON K1Y 3T7, Canada">165-189 Hickory St. Ottawa, ON K1Y 3T7, Canada</span>
 									</span>
 									<span class="text-lg-end d-flex flex-row-reverse flex-lg-column pb-3 py-lg-3 px-1 px-lg-3 justify-content-between align-items-center">
 										<span class="removeButton cursor-pointer text-white text-end mb-auto d-none d-lg-inline-block">										
@@ -220,28 +200,64 @@
 										<span class="removeButton cursor-pointer text-white text-xs text-decoration-underline text-end mb-auto d-inline-block d-lg-none">	
 											Delete
 										</span>
-										<a href="#" class="text-xs lh-1 text-600 text-white text-decoration-underline address-label-edit d-lg-none d-xl-inline-block">Edit this address</a>
-										<a href="#" class="text-xs lh-1 text-600 text-white d-none d-lg-inline-block d-xl-none text-decoration-none">
+										<span class="text-xs lh-1 cursor-pointer text-600 text-white text-decoration-underline address-label-edit d-lg-none d-xl-inline-block btn-change-info">
+											<span class="changeText">Edit</span> this address
+										</span>
+										<span class="cursor-pointer text-xs lh-1 text-600 text-white d-none d-lg-inline-block d-xl-none text-decoration-none btn-change-info">
+											<span class="changeText d-none"></span>
 											<i class="icon-edit-2"></i>
-										</a>
+										</span>
 									</span>
 									<span class="mt-2 mt-lg-4 mb-3 px-1 address-label-checked d-none w-100">	
-										<span class="d-block d-lg-inline-block text-primary text-xs lh-1_1 mb-4 mb-lg-0 me-lg-5 pe-lg-4">
-											<i class="bi bi-check2"></i>	
+										<span class="d-block d-lg-inline-block text-xs lh-1_1 mb-3 mb-sm-4 mb-lg-0 me-lg-5 pe-lg-4 billingAddress">
+											<i class="icon fal"></i>	
 											Default billing address
 										</span>
-										<span class="d-lg-inline-block text-primary text-xs lh-1_1 mb-0">
-											<i class="bi bi-check2"></i>	
+										<span class="d-lg-inline-block text-xs lh-1_1 mb-0 shippingAddress">
+											<i class="icon fal"></i>	
+											Default shipping address
+										</span>
+									</span>	 
+								</label>
+
+								<input type="radio" class="btn-check" name="address[]" id="address-2" checked>
+								<label class="label-check address-label d-block d-lg-flex flex-wrap justify-content-between address-label border border-2 rounded-3 border-light-gray bg-black bg-opacity-30 p-3 mb-6 changeInformation" for="address-2">
+									<span class="d-flex flex-column px-1 mb-3 mb-sm-4 mb-lg-0 pt-3 py-lg-3">	
+										<span class="d-inline-block text-md text-md-up lh-1 text-800 mb-0 mb-lg-2 contentText" contenteditable='false' data-placeholder="Name Surname">Isabell Smith</span>
+										<span class="d-inline-block text-xs lh-1_1 mb-0 contentText" contenteditable='false' data-placeholder="2542 Front St. Ottawa, ON K1Y 3T7, Canada">165-189 Hickory St. Ottawa, ON K1Y 3T7, Canada</span>
+									</span>
+									<span class="text-lg-end d-flex flex-row-reverse flex-lg-column pb-3 py-lg-3 px-1 px-lg-3 justify-content-between align-items-center">
+										<span class="removeButton cursor-pointer text-white text-end mb-auto d-none d-lg-inline-block">										
+											<i class="icon-trash d-block text-xs mb-auto"></i>
+										</span>
+										<span class="removeButton cursor-pointer text-white text-xs text-decoration-underline text-end mb-auto d-inline-block d-lg-none">	
+											Delete
+										</span>
+										<span class="text-xs lh-1 cursor-pointer text-600 text-white text-decoration-underline address-label-edit d-lg-none d-xl-inline-block btn-change-info">
+											<span class="changeText">Edit</span> this address
+										</span>
+										<span class="text-xs cursor-pointer lh-1 text-600 text-white d-none d-lg-inline-block d-xl-none text-decoration-none btn-change-info">
+											<span class="changeText d-none"></span>
+											<i class="icon-edit-2"></i>
+										</span>
+									</span>
+									<span class="mt-2 mt-lg-4 mb-3 px-1 address-label-checked d-none w-100">	
+										<span class="d-block text-primary d-lg-inline-block text-xs lh-1_1 mb-3 mb-sm-4 mb-lg-0 me-lg-5 pe-lg-4 billingAddress">
+											<i class="icon fal fa-check"></i>	
+											Default billing address
+										</span>
+										<span class="d-lg-inline-block text-primary text-xs lh-1_1 mb-0 shippingAddress">
+											<i class="icon fal fa-check"></i>	
 											Default shipping address
 										</span>
 									</span>								
 								</label>	
 								
 								<input type="radio" class="btn-check" name="address[]" id="address-3">
-								<label class="label-check address-label d-block d-lg-flex flex-wrap justify-content-between border border-2 rounded-3 border-light-gray bg-black bg-opacity-30 p-3 mb-6" for="address-3">
+								<label class="label-check address-label d-block d-lg-flex flex-wrap justify-content-between border border-2 rounded-3 border-light-gray bg-black bg-opacity-30 p-3 mb-6 changeInformation" for="address-3">
 									<span class="d-flex flex-column px-1 mb-3 mb-sm-4 mb-lg-0 pt-3 py-lg-3">	
-										<span class="d-inline-block text-md text-md-up lh-1 text-800 mb-0 mb-lg-2">Isabell Smith</span>
-										<span class="d-inline-block text-xs lh-1_1 mb-0">165-189 Hickory St. Ottawa, ON K1Y 3T7, Canada</span>
+										<span class="d-inline-block text-md text-md-up lh-1 text-800 mb-0 mb-lg-2 contentText" contenteditable='false' data-placeholder="Name Surname">Isabell Smith</span>
+										<span class="d-inline-block text-xs lh-1_1 mb-0 contentText" contenteditable='false' data-placeholder="2542 Front St. Ottawa, ON K1Y 3T7, Canada">165-189 Hickory St. Ottawa, ON K1Y 3T7, Canada</span>
 									</span>
 									<span class="text-lg-end d-flex flex-row-reverse flex-lg-column pb-3 py-lg-3 px-1 px-lg-3 justify-content-between align-items-center">
 										<span class="removeButton cursor-pointer text-white text-end mb-auto d-none d-lg-inline-block">										
@@ -250,18 +266,21 @@
 										<span class="removeButton cursor-pointer text-white text-xs text-decoration-underline text-end mb-auto d-inline-block d-lg-none">	
 											Delete
 										</span>
-										<a href="" class="text-xs lh-1 text-600 text-white text-decoration-underline address-label-edit d-lg-none d-xl-inline-block">Edit this address</a>
-										<a href="" class="text-xs lh-1 text-600 text-white d-none d-lg-inline-block d-xl-none text-decoration-none">
+										<span class="cursor-pointer text-xs lh-1 text-600 text-white text-decoration-underline address-label-edit d-lg-none d-xl-inline-block btn-change-info">
+											<span class="changeText">Edit</span> this address
+										</span>
+										<span class="cursor-pointer text-xs lh-1 text-600 text-white d-none d-lg-inline-block d-xl-none text-decoration-none btn-change-info">
+											<span class="changeText d-none"></span>
 											<i class="icon-edit-2"></i>
-										</a>
+										</span>
 									</span>
 									<span class="mt-2 mt-lg-4 mb-3 px-1 address-label-checked d-none w-100">	
-										<span class="d-block  d-lg-inline-block text-primary text-xs lh-1_1 mb-3 mb-sm-4 mb-lg-0 me-lg-5 pe-lg-4">
-											<i class="bi bi-check2"></i>	
+										<span class="d-block  d-lg-inline-block text-xs lh-1_1 mb-3 mb-sm-4 mb-lg-0 me-lg-5 pe-lg-4 billingAddress">
+											<i class="icon fal"></i>	
 											Default billing address
 										</span>
-										<span class="d-lg-inline-block text-primary text-xs lh-1_1 mb-0">
-											<i class="bi bi-check2"></i>	
+										<span class="d-lg-inline-block text-xs lh-1_1 mb-0 shippingAddress">
+											<i class="icon fal"></i>	
 											Default shipping address
 										</span>
 									</span>		
@@ -281,60 +300,70 @@
 									</div>
 									<div class="col-sm-10 col-lg-12 mb-5">
 										<div class="swiper slider-cards overflow-visible">
-											<div class="swiper-wrapper flex-nowrap flex-lg-wrap">				
-												<div class="swiper-slide">
-													<div class="d-flex flex-wrap flex-lg-nowrap mb-4 pb-lg-2 justify-content-center justify-content-lg-start">
-														<div class="payment-item credit-card credit-card-mastercard position-relative overflow-hidden rounded-3 p-4 me-lg-4 d-inline-block">
+											<div class="swiper-wrapper slider-cards-wrapper flex-nowrap flex-lg-wrap">				
+												<div class="swiper-slide changeInformation d-flex flex-wrap flex-lg-nowrap mb-4 pb-lg-2 justify-content-center justify-content-lg-start">
+													<!-- <div class=""> -->
+														<div class="payment-item credit-card credit-card-mastercard position-relative overflow-hidden rounded-3 p-4 me-lg-4 d-inline-block flex-shrink-0">
 															<div class="text-end mb-5 position-relative z-index_3">	
-																<img src="assets/images/Pay-Logos/Mastercard-logo.svg" alt="" height="20">
+																<img src="assets/images/Pay-Logos/mastercard.svg" alt="" height="20">
 															</div>
 															<div class="mb-5">
-																<p class="text-xxs text-600 lh-1 text-uppercase mb-2">CARD NUMBER</p>
-																<p class="credit-card-number text-md text-md-up text-700 lh-1 mb-0">* * * *&nbsp;&nbsp;&nbsp;&nbsp;* * * *&nbsp;&nbsp;&nbsp;&nbsp;* * * *&nbsp;&nbsp;&nbsp;&nbsp;9821</p>
+																<p class="text-xxs text-600 lh-1 text-uppercase mb-0">CARD NUMBER</p>
+																<input type="text" name="Card Number" class="contentText p-0 border-0 bg-transparent text-white credit-card-number text-md text-md-up text-700 lh-1 w-auto" value="0000000000009821" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" placeholder="0000 0000 0000 0000" disabled>
+																
 															</div>					
 															<div class="d-flex justify-content-between">	
 																<div class="">
-																	<p class="text-xxs text-600 lh-1 text-uppercase mb-2">CARDHOLDER NAME</p>
-																	<p class="credit-card-name text-md text-md-up text-700 lh-1 text-uppercase mb-0">JOHN SMITH</p>
+																	<p class="text-xxs text-600 lh-1 text-uppercase mb-0">CARDHOLDER NAME</p>
+																	<input type="text" name="Cardholder Name" class="contentText p-0 border-0 bg-transparent text-white credit-card-name text-md text-md-up text-700 lh-1 text-uppercase" value="John Smith" pattern="[a-zA-Z]+ [a-zA-Z]+" placeholder="Name Surname" disabled>
+																	
 																</div>
 																<div class="">
-																	<p class="text-xxs text-600 lh-1 text-uppercase mb-2">EXP DATE</p>
-																	<p class="credit-card-exp-date text-md text-md-up text-700 lh-1 text-uppercase mb-0">08/23</p>
+																	<p class="text-xxs text-600 lh-1 text-uppercase mb-0">EXP DATE</p>
+																	<input type="text" name="EXP Date" class="contentText p-0 border-0 bg-transparent text-white credit-card-exp-date text-md text-md-up text-700 lh-1 text-uppercase w-100" value="08/23" pattern="[0-9]{2}/[0-9]{2}" placeholder="MM/YY" disabled>
+																	
 																</div>
 															</div>
 														</div>													
-														<div>
-															<button class="text-start text-decoration-underline text-white text-600 text-xs lh-1 d-none d-lg-block mb-4">Edit card informations</button>
-															<button class="text-start text-decoration-underline text-white text-600 text-xs lh-1 d-none d-lg-block">Remove this card</button>															
+														<div class="mt-4 mt-lg-0 btn-group d-lg-block">
+															<button class="text-lg-start text-decoration-underline text-white text-600 text-xs lh-1 d-block mb-lg-4 btn-change-info btn-lg-link px-2 px-lg-0 me-2 me-lg-0">
+																<span class="changeText">Edit</span>  card <span class="d-none d-lg-inline">informations</span>
+															</button>
+															<button class="text-lg-start text-decoration-underline text-white text-600 text-xs lh-1 d-block removeButton btn-lg-link px-2 px-lg-0 ms-2 ms-lg-0">Remove <span class="d-none d-lg-inline">this</span> card</button>															
 														</div>	
-													</div>									
+													<!-- </div>									 -->
 												</div>
-												<div class="swiper-slide">
-													<div class="d-flex flex-wrap flex-lg-nowrap mb-4 pb-lg-2 justify-content-center justify-content-lg-start">
-														<div class="payment-item credit-card credit-card-visa position-relative overflow-hidden rounded-3 p-4 me-lg-4 d-inline-block">
+												<div class="swiper-slide changeInformation d-flex flex-wrap flex-lg-nowrap mb-4 pb-lg-2 justify-content-center justify-content-lg-start">
+													<!-- <div class="d-flex flex-wrap flex-lg-nowrap mb-4 pb-lg-2 justify-content-center justify-content-lg-start"> -->
+														<div class="payment-item credit-card credit-card-visa position-relative overflow-hidden rounded-3 p-4 me-lg-4 d-inline-block flex-shrink-0">
 															<div class="text-end mb-5 position-relative z-index_3">	
-																<img src="assets/images/Pay-Logos/Visa_Inc._logo.svg" alt="" height="20">
+																<img src="assets/images/Pay-Logos/visa.svg" alt="" height="20">
 															</div>
 															<div class="mb-5">
-																<p class="text-xxs text-600 lh-1 text-uppercase mb-2">CARD NUMBER</p>
-																<p class="credit-card-number text-md text-md-up text-700 lh-1 mb-0">* * * *&nbsp;&nbsp;&nbsp;&nbsp;* * * *&nbsp;&nbsp;&nbsp;&nbsp;* * * *&nbsp;&nbsp;&nbsp;&nbsp;9821</p>
+																<p class="text-xxs text-600 lh-1 text-uppercase mb-0">CARD NUMBER</p>
+																<input type="text" name="Card Number" class="contentText p-0 border-0 bg-transparent text-white credit-card-number text-md text-md-up text-700 lh-1 w-auto" value="2222000000009821" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" placeholder="0000 0000 0000 0000" disabled>
+																
 															</div>					
 															<div class="d-flex justify-content-between">	
 																<div class="">
-																	<p class="text-xxs text-600 lh-1 text-uppercase mb-2">CARDHOLDER NAME</p>
-																	<p class="credit-card-name text-md text-md-up text-700 lh-1 text-uppercase mb-0">JOHN SMITH</p>
-																</div> 
+																	<p class="text-xxs text-600 lh-1 text-uppercase mb-0">CARDHOLDER NAME</p>
+																	<input type="text" name="Cardholder Name" class="contentText p-0 border-0 bg-transparent text-white credit-card-name text-md text-md-up text-700 lh-1 text-uppercase" value="John Smith" pattern="[a-zA-Z]+ [a-zA-Z]+" placeholder="Name Surname" disabled>
+																	
+																</div>
 																<div class="">
-																	<p class="text-xxs text-600 lh-1 text-uppercase mb-2">EXP DATE</p>
-																	<p class="credit-card-exp-date text-md text-md-up text-700 lh-1 text-uppercase mb-0">08/23</p>
+																	<p class="text-xxs text-600 lh-1 text-uppercase mb-0">EXP DATE</p>
+																	<input type="text" name="EXP Date" class="contentText p-0 border-0 bg-transparent text-white credit-card-exp-date text-md text-md-up text-700 lh-1 text-uppercase w-100" value="08/23" pattern="[0-9]{2}/[0-9]{2}" placeholder="MM/YY" disabled>
+																	
 																</div>
 															</div>
 														</div>													
-														<div class="">
-															<button class="text-start text-decoration-underline text-white text-600 text-xs lh-1 d-none d-lg-block mb-4">Edit card informations</button>
-															<button class="text-start text-decoration-underline text-white text-600 text-xs lh-1 d-none d-lg-block">Remove this card</button>
-														</div>	
-													</div>										
+														<div class="mt-4 mt-lg-0 btn-group d-lg-block">
+															<button class="text-lg-start text-decoration-underline text-white text-600 text-xs lh-1 d-block mb-lg-4 btn-change-info btn-lg-link px-2 px-lg-0 me-2 me-lg-0">
+																<span class="changeText">Edit</span>  card <span class="d-none d-lg-inline">informations</span>
+															</button>
+															<button class="text-lg-start text-decoration-underline text-white text-600 text-xs lh-1 d-block removeButton btn-lg-link px-2 px-lg-0 ms-2 ms-lg-0">Remove <span class="d-none d-lg-inline">this</span> card</button>															
+														</div>		
+													<!-- </div>										 -->
 												</div>
 											</div>
 											<div class="swiper-button-next boxSize-sm rounded-2 bg-dark bg-dark-opacity-80 text-white d-none d-sm-flex d-lg-none"></div>
@@ -342,21 +371,13 @@
 										</div>
 										
 										<div class="payment-item text-center mb-5 mb-lg-0 pb-sm-5 pb-lg-0">
-											<button class="button-add-card text-white text-500 text-xs lh-1 d-none d-lg-flex w-100 justify-content-center align-items-center">
+											<button class="button-add-card text-white text-500 text-xs lh-1 d-none d-lg-flex w-100 justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#addNewCreditCard">
 												<span class="boxSize-sm bg-dark bg-opacity-80 d-lg-flex justify-content-center align-items-center me-3 rounded-2">
 													<i class="icon-add"></i>								
 												</span>
 												Add new card
 											</button>
-											<div class="row d-lg-none d-flex mb-4">
-												<div class="col-6">	
-													<button class="btn btn-center btn-outline-primary w-100 px-2">Delete Card</button>
-												</div>
-												<div class="col-6">	
-													<button class="btn btn-center btn-outline-primary w-100 px-2">Edit Card</button>
-												</div>
-											</div>
-											<button class="button-add-card btn btn-center btn-primary d-flex d-lg-none w-100 justify-content-center align-items-center text-capitalize text-xs">
+											<button class="button-add-card btn btn-center btn-primary d-flex d-lg-none w-100 justify-content-center align-items-center text-capitalize text-xs" data-bs-toggle="modal" data-bs-target="#addNewCreditCard">
 												Add new
 											</button>
 										</div>
@@ -428,12 +449,12 @@
 															<div class="col-12 col-xl-2 order-2 order-xl-1">
 																<img src="assets/images/Products/wheel.png" class="me-4 img-fluid d-none d-xl-inline-block" alt="wheel">
 																<div class="d-flex d-xl-none justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-																	<div>
-																	<img src="assets/images/Products/wheel.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="wheel">
-																	<p class="text-xxs lh-1 mb-0 d-inline-block">Wheel</p>
+																	<div class="w-45 flex-shrink-0">
+																		<img src="assets/images/Products/wheel.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="wheel">
+																		<p class="text-xxs lh-1 mb-0 d-inline-block">Wheel</p>
 																	</div>
-																	<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-																	<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+																	<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+																	<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 																</div>
 															</div>
 															<div class="col-11 col-md-10 col-lg-11 col-xl-9 order-1 order-xl-2 order-details-headline">
@@ -710,20 +731,20 @@
 																			<div class="col-12 col-xl-8 order-1 order-xl-2">
 																				<p class="text-xxs lh-1 text-500 mb-3 opacity-60 d-none d-xl-block">Costs</p>
 																				<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-																					<div>
+																					<div class="w-45 flex-shrink-0">
 																						<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
 																						<p class="text-xxs lh-1 mb-0 d-inline-block">Air Engine Filter</p>
 																					</div>
-																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-																					<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+																					<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 																				</div>
 																				<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-																					<div>
-																						<img src="assets/images/Products/belt_engine.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="belt engine">
+																					<div class="w-45 flex-shrink-0">
+																						<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
 																						<p class="text-xxs lh-1 mb-0 d-inline-block">Air Engine Filter</p>
 																					</div>
-																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-																					<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+																					<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 																				</div>
 																			</div>
 																			<div class="col-12 col-xl-4 order-4 order-xl-3 mt-4 mt-xl-0">
@@ -899,20 +920,20 @@
 																			<div class="col-12 col-xl-8 order-1 order-xl-2">
 																				<p class="text-xxs lh-1 text-500 mb-3 opacity-60 d-none d-xl-block">Costs</p>
 																				<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-																					<div>
+																					<div class="w-45 flex-shrink-0">
 																						<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
 																						<p class="text-xxs lh-1 mb-0 d-inline-block">Air Engine Filter</p>
 																					</div>
-																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-																					<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+																					<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 																				</div>
 																				<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-																					<div>
-																						<img src="assets/images/Products/belt_engine.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="belt engine">
+																					<div class="w-45 flex-shrink-0">
+																						<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
 																						<p class="text-xxs lh-1 mb-0 d-inline-block">Air Engine Filter</p>
 																					</div>
-																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-																					<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+																					<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 																				</div>
 																			</div>
 																			<div class="col-12 col-xl-4 order-4 order-xl-3 mt-4 mt-xl-0">
@@ -1088,20 +1109,20 @@
 																			<div class="col-12 col-xl-8 order-1 order-xl-2">
 																				<p class="text-xxs lh-1 text-500 mb-3 opacity-60 d-none d-xl-block">Costs</p>
 																				<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-																					<div>
+																					<div class="w-45 flex-shrink-0">
 																						<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
 																						<p class="text-xxs lh-1 mb-0 d-inline-block">Air Engine Filter</p>
 																					</div>
-																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-																					<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+																					<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 																				</div>
 																				<div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-50 py-3">
-																					<div>
-																						<img src="assets/images/Products/belt_engine.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="belt engine">
+																					<div class="w-45 flex-shrink-0">
+																						<img src="assets/images/Products/air_filter.png" class="mx-2 pe-1 d-none d-sm-inline-block" width="51" alt="air filer">
 																						<p class="text-xxs lh-1 mb-0 d-inline-block">Air Engine Filter</p>
 																					</div>
-																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0">1 piece</p>
-																					<p class="text-xxs lh-1 text-700 mb-0">$500.00</p>
+																					<p class="text-xxs lh-1 text-700 opacity-60 mb-0 w-20 text-center">1 piece</p>
+																					<p class="text-xxs lh-1 text-700 mb-0  w-30 text-end">$500.00</p>
 																				</div>
 																			</div>
 																			<div class="col-12 col-xl-4 order-4 order-xl-3 mt-4 mt-xl-0">
@@ -1212,10 +1233,11 @@
 						</a>
 					</div>
 				</div>
-				<img src="assets/images/Background/Zasób-1.png" class="position-absolute start-50 top-50 translate-middle opacity-10 w-75 z-index_0">
+				<img src="assets/images/Background/Zasob-1.png" alt="gears" class="position-absolute start-50 top-50 translate-middle opacity-10 w-75 z-index_0">
 			</div>
 		</section> 
     </main>	
+	
     
 	<?php include './src/footer.php';?>	
 
@@ -1224,10 +1246,145 @@
     <?php include './src/navbar-offcanvas-user-panel.php';?>
     <?php include './src/navbar-modal.php';?>
 
+
+	
+	<!-- _________________________________ modal New Address _______________________________________ -->
+	<div class="modal z-index_1200 fade addNewAddress" id="addNewAddress" tabindex="-1" aria-labelledby="addNewAddress" aria-hidden="true">
+        <button type="button" class="btn-close m-0 p-0 opacity-100 text-white bg-img-none position-absolute top-0 start-0 p-3" data-bs-dismiss="modal" aria-label="Close">
+            <i class="icon-arrow-left"></i>
+        </button>
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+			<div class="modal-content bg-dark rounded-3">
+				<div class="modal-body scroll-dark p-0 h-100">						
+					<div class="card border-white border-opacity-05 rounded-3 card-bg-dark min-h-100">
+						<div class="card-body p-4 p-sm-5 position-relative d-flex flex-column">
+							<button type="button" class="btn-close p-4 p-sm-5 opacity-100 text-white d-inline-block d-lg-none w-auto text-end position-absolute top-0 end-0 bg-img-none h-auto" data-bs-dismiss="modal" aria-label="Close">
+								<i class="icon-close-circle text-md"></i>
+							</button>
+							<div class="">
+								<div class="row h-100 justify-content-center align-content-center">
+									<div class="col-12 mb-4 pb-2 mt-5 mt-lg-0  text-center text-lg-start">
+										<h3 class="headline-3 lh-1 text-800 text-uppercase mb-4 pb-2">ADD NEW Address</h3>
+										<!-- <p class="text-xs lh-xl mb-0">Specify your vehicle type and add more info about your machine</p> -->
+									</div>
+									<form class="mb-2 addNewAddresForm needs-validation" novalidate>
+										<div class="row">
+											<div class="col-12 mb-4 pb-2">
+												<input class="form-control form-control-sm form-control-gray rounded-1 form-control-fs-up newName" type="text" placeholder="Your name*" name="Name" required>
+											</div>
+											<div class="col-12 mb-4 pb-2 d-flex align-items-center">
+												<input class="form-control form-control-sm form-control-gray rounded-1 form-control-fs-up newAddress" type="text" placeholder="Your Address*" name="Address" required>
+											</div>	
+											<div class="col-12 mb-4 pb-2">														
+												<input type="checkbox" class="form-check-input rounded-0 flex-shrink-0 border border-1 border-light-gray rounded-2 bg-black bg-opacity-30 text-lg mt-0"  value="" name="Default_billing_address" id="defaultBillingAddress">
+												<label class="labels-check-input text-xs ms-3 align-text-top" for="defaultBillingAddress">
+													Default billing address
+												</label>												
+											</div>
+											<div class="col-12 mb-4 pb-2 d-flex align-items-center">
+												<input type="checkbox" class="form-check-input rounded-0 flex-shrink-0 border border-1 border-light-gray rounded-2 bg-black bg-opacity-30 text-lg mt-0"  value="" name="Default_shipping_address" id="defaultShippingAddress">
+												<label class="labels-check-input text-xs ms-3 align-text-top" for="defaultShippingAddress">
+													Default shipping address
+												</label>
+												
+											</div>
+																					
+										</div>
+									</form>
+									<div class="col-12 mt-auto">
+										<div class="row justify-content-center justify-content-lg-between">
+											<div class="col-sm-8 col-lg-4 order-2 order-lg-1">
+												<button class="btn btn-center btn-gray w-100" data-bs-dismiss="modal" aria-label="Close">
+													<span class="btn-text">cancel</span> 
+												</button>
+											</div>
+											<div class="col-sm-8 col-lg-4 order-1 order-lg-2 mb-3 mb-lg-0">
+												<button class="btn btn-primary btn-center btn-new-address w-100">
+													Save	
+											</button>
+											</div>														
+										</div>
+									</div>
+								</div>
+							</div>													
+						</div>
+					</div>
+				</div>								
+			</div>
+		</div>
+    </div>
+
+	<!-- _________________________________ modal New Address _______________________________________ -->
+	<div class="modal z-index_1200 fade addNewCreditCard" id="addNewCreditCard" tabindex="-1" aria-labelledby="addNewCreditCard" aria-hidden="true">
+        <button type="button" class="btn-close m-0 p-0 opacity-100 text-white bg-img-none position-absolute top-0 start-0 p-3" data-bs-dismiss="modal" aria-label="Close">
+            <i class="icon-arrow-left"></i>
+        </button>
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+			<div class="modal-content bg-dark rounded-3">
+				<div class="modal-body scroll-dark p-0 h-100">						
+					<div class="card border-white border-opacity-05 rounded-3 card-bg-dark min-h-100">
+						<div class="card-body p-4 p-sm-5 position-relative d-flex flex-column">
+							<button type="button" class="btn-close p-4 p-sm-5 opacity-100 text-white d-inline-block d-lg-none w-auto text-end position-absolute top-0 end-0 bg-img-none h-auto" data-bs-dismiss="modal" aria-label="Close">
+								<i class="icon-close-circle text-md"></i>
+							</button>
+							<div class="">
+								<div class="row h-100 justify-content-center align-content-center">
+									<div class="col-12 mb-4 pb-2 mt-5 mt-lg-0  text-center text-lg-start">
+										<h3 class="headline-3 lh-1 text-800 text-uppercase mb-4 pb-2">ADD NEW Credit Card</h3>
+										<!-- <p class="text-xs lh-xl mb-0">Specify your vehicle type and add more info about your machine</p> -->
+									</div>
+									<form class="mb-2 addNewCreditCardForm needs-validation" novalidate>
+										<div class="row">
+											<div class="col-12 mb-4 pb-2">
+												<p class="text-xs text-500 lh-1 text-uppercase mb-2 opacity-60">Credit card companies</p>
+												<select class="select-beast select-beast-lg-fs-up">
+													<option value="mastercard">Mastercard</option>
+													<option value="visa">Vise</option>												
+												</select>
+											</div>
+											<div class="col-12 mb-4 pb-2">
+												<p class="text-xs text-500 lh-1 text-uppercase mb-2 opacity-60">Card Number</p>
+												<input class="form-control form-control-sm form-control-gray rounded-1 form-control-fs-up cardNumber" type="text" placeholder="0000 0000 0000 0000*" name="Card_Number" required>
+											</div>	
+											<div class="col-12 mb-4 pb-2">
+												<p class="text-xs text-500 lh-1 text-uppercase mb-2 opacity-60">Cardholder Name</p>
+												<input class="form-control form-control-sm form-control-gray rounded-1 form-control-fs-up cardholderName" type="text" placeholder="Name Surname*" name="Cardholder_Name" required>
+											</div>	
+											<div class="col-12 mb-4 pb-2">
+												<p class="text-xs text-500 lh-1 text-uppercase mb-2 opacity-60">Expiration Date Card</p>
+												<input class="form-control form-control-sm form-control-gray rounded-1 form-control-fs-up expDate" type="text" placeholder="MM/YY*" name="Expiration_Date_Card" required>
+											</div>							
+																					
+										</div>
+									</form>
+									<div class="col-12 mt-auto">
+										<div class="row justify-content-center justify-content-lg-between">
+											<div class="col-sm-8 col-lg-4 order-2 order-lg-1">
+												<button class="btn btn-center btn-gray w-100" data-bs-dismiss="modal" aria-label="Close">
+													<span class="btn-text">cancel</span> 
+												</button>
+											</div>
+											<div class="col-sm-8 col-lg-4 order-1 order-lg-2 mb-3 mb-lg-0">
+												<button class="btn btn-primary btn-center btn-new-creditCard w-100">
+													Save	
+											</button>
+											</div>														
+										</div>
+									</div>
+								</div>
+							</div>													
+						</div>
+					</div>
+				</div>								
+			</div>
+		</div>
+    </div>
+
+
+
 	<!-- Bootstrap JS -->	
 	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.min.js" async></script>	
-
-	<script type="text/javascript" src="assets/js/my-account-script.js" async></script>
+	<script type="text/javascript" src="assets/js/my-account-script.js" async></script>	
 
 	<!-- Tom Select JS -->
 	<script src="https://cdn.jsdelivr.net/npm/tom-select@2.1.0/dist/js/tom-select.complete.min.js"></script>
@@ -1237,7 +1394,6 @@
 
 	<!-- JS -->
 	<script type="text/javascript" src="assets/js/calender.js" defer></script>
-	<script type="text/javascript" src="assets/js/cart-script.js" defer></script>
 	
 	<script type="text/javascript" src="assets/js/script.js" defer></script>
 </body>

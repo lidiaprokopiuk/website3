@@ -5,9 +5,9 @@
                 <img src="assets/images/Logo/ORV-HeadQuarters.svg" alt="">
             </a>
             <div class="fixed-bottom-menu d-lg-flex col-lg-9 justify-content-between flex-wrap start-0 bottom-0 align-items-center" id="fixed-bottom-menu">
-                <div class="fixed-bottom-item position-relative col-7 dropdown mb-2 mb-sm-3 mb-lg-0 me-xxl-auto ms-xxl-5 mx-auto" id="fixed-bottom-item">
+                <div class="fixed-bottom-item scroll-dark position-relative col-7 dropdown mb-2 mb-sm-3 mb-lg-0 me-xxl-auto ms-xxl-5 mx-auto" id="fixed-bottom-item">
                                      
-                    <input type="search" name="Search" class="form-control rounded-3 d-flex justify-content-between dropdown-toggle text-md lh-1 text-uppercase" placeholder="Search"  id="searchDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="true" data-bs-offset="10,20" data-bs-auto-close="outside">
+                    <div contenteditable class="form-control rounded-3 d-flex justify-content-between dropdown-toggle text-md lh-1 text-uppercase" data-placeholder="Search"  id="searchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true" data-bs-offset="10,20" data-bs-auto-close="outside"></div>
                                        
                     <div class="dropdown-menu navbar-dropdown-menu rounded-3 bg-black-pearl text-white border-stone border-opacity-25 translate-middle-x pb-0 p-0 m-0"> 	
                         <div class="pt-lg-4">
@@ -110,8 +110,8 @@
                                         </div>
                                     </div>			 						
                                 </div>
-                                <div class="col-12 pb-5 pb-lg-0">
-                                    <div class="rounded-3 border-top border-white border-opacity-05 p-0 p-lg-4 bg-gradient-dark">
+                                <div class="col-12 pb-2 pb-lg-0">
+                                    <div class="rounded-3 pb-4 pb-lg-0 border-top border-white border-opacity-05 p-0 p-lg-4 bg-gradient-dark">
                                         <div class="mb-3 buttonActive-wrapper active pt-3 pt-lg-0 px-4 px-lg-0">
                                             <a href="#" class="d-none d-lg-inline-block position-relative d-inline-block text-white buttonActive">
                                         
@@ -147,7 +147,7 @@
                         <img src="assets/images/Icon/search-icon.svg" class="z-index_-1" alt="">
                     </button>     
                 </div>
-                <div class="bg-black-opacity-80 rounded-top-5 d-none p-4 sticky-bottom w-100 bottom-0 start-0 bg-blur border-top border-1 border-white border-opacity-10">
+                <div class="bg-black bg-opacity-80 rounded-top-5 d-none p-4 sticky-bottom w-100 bottom-0 start-0 bg-blur border-top border-1 border-white border-opacity-10">
                         <button type="button" class="closeDropdown d-flex d-lg-none btn btn-center btn-gray me-3 opacity-100 rounded-1 bg-img-none boxSize-xxl h-auto  p-1" aria-label="Close">
                             <i class="fal fa-times"></i>
                         </button>
@@ -159,20 +159,20 @@
                         </button>
                     </div>
                 <div class="fixed-bottom-item navbar-nav justify-content-between col-4 col-xxl-3 align-items-center">
-                    <a class="nav-link active" aria-current="page" href="index.php">
+                    <a class="nav-link lh-1 active" aria-current="page" href="index.php">
                         <img src="assets/images/Icon/home-icon.svg" class="" alt="">
                     </a>
-                    <a class="nav-link" href="my-garage.php">
+                    <a class="nav-link lh-1" href="my-garage.php">
                         <img src="assets/images/Icon/quad-icon.svg" class="" alt="">
                     </a>
-                    <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasChat" role="button" aria-controls="offcanvasChat">
+                    <a class="nav-link lh-1" data-bs-toggle="offcanvas" href="#offcanvasChat" role="button" aria-controls="offcanvasChat">
                         <img src="assets/images/Icon/message-icon.svg" class="" alt="">
                     </a>
-                    <a class="nav-link position-relative" data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasCart">
+                    <a class="nav-link lh-1 position-relative" data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasCart">
                         <img src="assets/images/Icon/shopping-cart.svg" class="" alt="">
                         <div class="position-absolute badge d-block rounded-circle bg-primary p-0 boxSize-2xs"></div>
                     </a> 
-                    <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button" aria-controls="offcanvasRight">
+                    <a class="nav-link lh-1" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button" aria-controls="offcanvasRight">
                         <img src="assets/images/Icon/user-icon.svg" class="" alt="">
                     </a>
                 </div>

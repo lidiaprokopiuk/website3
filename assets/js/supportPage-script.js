@@ -116,3 +116,32 @@ offcanvasChatBody.addEventListener("scroll", function() {
 
 
 
+// 							FILES
+// ========================================================
+// ========================================================
+
+const inputFile = document.getElementById('chooseFile');
+const preview = document.querySelector('.preview');
+inputFile.addEventListener('change', updateFiles);
+
+function updateFiles() {  
+	const curFiles = inputFile.files;
+	for (const file of curFiles) {
+		const listItem = document.createElement('li');
+		listItem.classList.add('mb-0', 'lh-1', 'text-gray', 'd-flex', 'align-items-center');	
+		listItem.textContent = `${file.name}`;
+		const removeFile = document.createElement('button');
+		removeFile.classList.add('removeButton', 'text-xxs', 'ms-1', 'text-gray');
+		listItem.appendChild(removeFile);
+		const removeIcon = document.createElement('i');
+		removeIcon.classList.add('icon-close-circle');	
+		removeFile.appendChild(removeIcon);
+		preview.appendChild(listItem);
+
+		removeFile.addEventListener('click', () => {
+			if (confirm("Are you sure?")) {
+				removeFile.parentNode.remove();
+			}				
+		})
+	}
+}

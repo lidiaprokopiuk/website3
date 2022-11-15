@@ -140,7 +140,7 @@
 										</div> 
 										<div class="col-12 text-white">
 											<div data-for="changePersonalInfo" class="cursor-pointer btn-lg-link text-xs lh-1 text-600 text-primary text-decoration-underline d-inline-block d-lg-flex align-items-center h-100 w-100 btn-change-info">
-												<span class="changeText">Edit</span>   personal informations
+												<span class="changeText">Edit </span>&nbsp;personal informations
 											</div>
 										</div>
 									</div>
@@ -160,7 +160,7 @@
 										</div>
 										<div class="col-12 col-lg-5 col-xl-6 mb-4">
 											<label for="changeEmail" class="cursor-pointer btn-lg-link text-xs lh-1 text-600 text-primary text-decoration-underline d-inline-block d-lg-flex align-items-center h-100 w-100 btn-change-content">
-												<span class="changeText">Change</span>  e-mial
+												<span class="changeText">Change</span>&nbsp;e-mial
 											</label>
 										</div>
 										<div class="col-12 col-lg-7 col-xl-6 mb-4">
@@ -171,7 +171,7 @@
 										</div>
 										<div class="col-12 col-lg-5 col-xl-6 mb-md-4">
 											<label for="changePassword" class="cursor-pointer btn-lg-link text-xs lh-1 text-600 text-primary text-decoration-underline d-inline-block d-lg-flex align-items-center h-100 w-100 btn-change-content">
-												<span class="changeText">Change</span>  password
+												<span class="changeText">Change</span>&nbsp;password
 											</label>
 										</div>
 									</div>
